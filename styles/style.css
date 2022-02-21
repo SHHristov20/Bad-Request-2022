@@ -7,12 +7,12 @@
 }
 
 nav {
-  position: -webkit-sticky;
-  position: sticky;
-  background: linear-gradient(89.52deg, #F6F08C 0%, #C77902 95.83%);
+  position: fixed;
+  background: linear-gradient(89.52deg, #9791A2 0%, #564E53 95.83%);
   padding: 0.7%;
   font-family: 'Poppins', sans-serif;
-  max-width: 100%;
+  width: 100%;
+  z-index: 2;
 }
 
 nav ul {
@@ -39,13 +39,15 @@ nav li {
 }
 
 nav a {
+  color: #aaa9a8;
   cursor: pointer;
+  font-weight: bold;
 }
 
 nav a i {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-right: 0.7vw;
   cursor: pointer;
-  color: #633510;
+  color: #aaa9a8;
 }
 /*# sourceMappingURL=style.css.map */
