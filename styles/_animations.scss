@@ -1,0 +1,41 @@
+@mixin transition-ease {
+  transition: all 0.5s ease-in;
+}
+
+@mixin landingAnimation {
+  animation: fade ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes fade {
+    0% {
+      @include transition-ease;
+      filter: blur(20px);
+      top: 60%;
+    }
+    100% {
+      @include transition-ease;
+      filter: blur(0px);
+      top: 40%;
+    }
+  }
+}
+
+@mixin navAnimation {
+  animation: nav ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes nav {
+    0% {
+      @include transition-ease;
+      filter: blur(5px);
+      left: 0%;
+    }
+    100% {
+      @include transition-ease;
+      filter: blur(0px);
+      left: 0%;
+    }
+  }
+}

@@ -1,69 +1,67 @@
-@import 'config';
-
-
-nav{
-    position: fixed;
-    background-color: transparent;
-    padding:1%;
-    font-family: 'Poppins', sans-serif;
-    width: 90%;
-    z-index: 2;
-    padding-right: 1%;
-    ul{
-        display:flex;
-        flex-direction: row;
-        justify-content:space-between;
-        margin-left: 37%;
-        align-items: right;
-        .swords{
-            position: absolute;
-            height: 100%;
-            left: 25%;
-            top: 5%;
-        }
+@import "config";
+@import "animations";
+nav {
+  position: fixed;
+  background-color: transparent;
+  padding: 1%;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  z-index: 2;
+  padding-right: 1%;
+  @include navAnimation;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 37%;
+    align-items: right;
+    .swords {
+      position: absolute;
+      height: 100%;
+      left: 25%;
+      top: 5%;
     }
-    li{
-        list-style-type: none;
-        display:inline;
-        font-size: 1.5rem;
-
+  }
+  li {
+    list-style-type: none;
+    display: inline;
+    font-size: 1.5rem;
+  }
+  a {
+    color: black;
+    cursor: pointer;
+    i {
+      font-size: 1.2rem;
+      margin-right: 0.7vw;
+      cursor: pointer;
+      color: black;
     }
-    a{
-        color: black;
-        cursor:pointer;
-        i{
-            font-size: 1.2rem;
-            margin-right: 0.7vw;
-            cursor:pointer; 
-            color:black;
-        }
-    }
+  }
 }
-.landing{
+.landing {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/Landing.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .introduction {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
     position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/Landing.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    .introduction{
-        font-size: 1.5rem;
-        font-family: 'Poppins', sans-serif;
-        position: absolute;
-        top: 40%;
-        left: 48%;
-        h1:nth-child(1)
-        {
-            color: #837E79;
-        }
-        h1:nth-child(2)
-        {
-            color: #DD9036;
-        }
-        h1:nth-child(3)
-        {
-            color: #231F1F;
-        }
+    top: 45%;
+    left: 48%;
+    @include landingAnimation;
+
+    h1:nth-child(1) {
+      color: #837e79;
     }
+    h1:nth-child(2) {
+      color: #dd9036;
+    }
+    h1:nth-child(3) {
+      color: #231f1f;
+    }
+  }
 }
