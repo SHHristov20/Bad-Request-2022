@@ -11,9 +11,8 @@ nav {
   background-color: transparent;
   padding: 1%;
   font-family: "Poppins", sans-serif;
-  width: 90%;
+  width: 100%;
   z-index: 2;
-  padding-right: 1%;
   -webkit-animation: nav ease 1s;
           animation: nav ease 1s;
   -webkit-animation-iteration-count: 1;
@@ -67,17 +66,10 @@ nav ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 37%;
+  margin-left: 74%;
   -webkit-box-align: right;
       -ms-flex-align: right;
           align-items: right;
-}
-
-nav ul .swords {
-  position: absolute;
-  height: 100%;
-  left: 25%;
-  top: 5%;
 }
 
 nav li {
@@ -109,11 +101,11 @@ nav a i {
 }
 
 .landing .introduction {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
   position: absolute;
   top: 45%;
-  left: 48%;
+  left: 74%;
   -webkit-animation: fade ease 1s;
           animation: fade ease 1s;
   -webkit-animation-iteration-count: 1;
@@ -166,5 +158,65 @@ nav a i {
 
 .landing .introduction h1:nth-child(3) {
   color: #231f1f;
+}
+
+.bonus-information {
+  color: black;
+  left: 74%;
+  top: 82%;
+  position: absolute;
+  width: 8vw;
+}
+
+.bonus-information h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information p {
+  font-size: 0.78rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_1 {
+  color: black;
+  left: 83%;
+  top: 82%;
+  position: absolute;
+  width: 8vw;
+}
+
+.bonus-information_1 h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_1 p {
+  font-size: 0.78rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_2 {
+  color: black;
+  left: 92%;
+  top: 82%;
+  position: absolute;
+  width: 8vw;
+}
+
+.bonus-information_2 h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_2 p {
+  font-size: 0.78rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
 }
 /*# sourceMappingURL=style.css.map */
