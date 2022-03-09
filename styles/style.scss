@@ -1,5 +1,6 @@
 @import "config";
 @import "animations";
+@import "summary";
 nav {
   position: fixed;
   background-color: transparent;
@@ -58,57 +59,54 @@ nav {
     }
   }
 }
-.bonus-information{
+.bonus-information {
   color: black;
   left: 74%;
   top: 82%;
   position: absolute;
   width: 8vw;
-  h1{
+  h1 {
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
     color: #343030;
   }
-  p{
+  p {
     font-size: 0.78rem;
     font-family: "Poppins", sans-serif;
     color: #343030;
-    
   }
 }
-.bonus-information_1{
+.bonus-information_1 {
   color: black;
   left: 83%;
   top: 82%;
   position: absolute;
   width: 8vw;
-  h1{
+  h1 {
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
     color: #343030;
   }
-  p{
+  p {
     font-size: 0.78rem;
     font-family: "Poppins", sans-serif;
     color: #343030;
-    
   }
 }
-.bonus-information_2{
+.bonus-information_2 {
   color: black;
   left: 92%;
   top: 82%;
   position: absolute;
   width: 8vw;
-  h1{
+  h1 {
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
     color: #343030;
   }
-  p{
+  p {
     font-size: 0.78rem;
     font-family: "Poppins", sans-serif;
     color: #343030;
-
   }
 }
