@@ -11,6 +11,25 @@
           user-select: none;
 }
 
+.summary {
+  position: absolute;
+  background-image: url("../img/Summary.svg");
+  top: 114%;
+  width: 100%;
+  height: 88.5%;
+  background-repeat: no-repeat;
+}
+
+.waves {
+  background-image: url("../img/waves.svg");
+  position: absolute;
+  top: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 15%;
+}
+
 nav {
   position: fixed;
   background-color: transparent;
