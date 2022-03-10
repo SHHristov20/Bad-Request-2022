@@ -1,6 +1,5 @@
 @import "config";
 @import "animations";
-@import "summary";
 nav {
   position: fixed;
   background-color: transparent;
@@ -10,14 +9,11 @@ nav {
   z-index: 2;
   @include navAnimation;
   ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 74%;
-    align-items: right;
+    text-align: center;
   }
   li {
     list-style-type: none;
+    margin-left: 5%;
     display: inline;
     font-size: 1.5rem;
   }
@@ -45,68 +41,62 @@ nav {
     font-family: "Poppins", sans-serif;
     position: absolute;
     top: 45%;
-    left: 74%;
+    left: 42%;
     @include landingAnimation;
-
-    h1:nth-child(1) {
-      color: #837e79;
-    }
-    h1:nth-child(2) {
-      color: #dd9036;
-    }
-    h1:nth-child(3) {
-      color: #231f1f;
+    h1{
+      color: black;
+      text-align: center;
     }
   }
 }
-.bonus-information {
-  color: black;
-  left: 74%;
-  top: 82%;
-  position: absolute;
-  width: 8vw;
-  h1 {
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
-    color: #343030;
-  }
-  p {
-    font-size: 0.78rem;
-    font-family: "Poppins", sans-serif;
-    color: #343030;
-  }
-}
-.bonus-information_1 {
-  color: black;
-  left: 83%;
-  top: 82%;
-  position: absolute;
-  width: 8vw;
-  h1 {
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
-    color: #343030;
-  }
-  p {
-    font-size: 0.78rem;
-    font-family: "Poppins", sans-serif;
-    color: #343030;
-  }
-}
-.bonus-information_2 {
-  color: black;
-  left: 92%;
-  top: 82%;
-  position: absolute;
-  width: 8vw;
-  h1 {
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
-    color: #343030;
-  }
-  p {
-    font-size: 0.78rem;
-    font-family: "Poppins", sans-serif;
-    color: #343030;
-  }
-}
+// .bonus-information {
+//   color: black;
+//   left: 26%;
+//   top: 79.5%;
+//   position: absolute;
+//   width: 9.3vw;
+//   h1 {
+//     font-size: 1.5rem;
+//     font-family: "Poppins", sans-serif;
+//     color: #343030;
+//   }
+//   p {
+//     font-size: 1rem;
+//     font-family: "Poppins", sans-serif;
+//     color: #343030;
+//   }
+// }
+// .bonus-information_1 {
+//   color: black;
+//   left: 46%;
+//   top: 79.5%;
+//   position: absolute;
+//   width: 8vw;
+//   h1 {
+//     font-size: 1.5rem;
+//     font-family: "Poppins", sans-serif;
+//     color: #343030;
+//   }
+//   p {
+//     font-size: 1rem;
+//     font-family: "Poppins", sans-serif;
+//     color: #343030;
+//   }
+// }
+// .bonus-information_2 {
+//   color: black;
+//   left: 66%;
+//   top: 79.5%;
+//   position: absolute;
+//   width: 10vw;
+//   h1 {
+//     font-size: 1.5rem;
+//     font-family: "Poppins", sans-serif;
+//     color: #343030;
+//   }
+//   p {
+//     font-size: 1rem;
+//     font-family: "Poppins", sans-serif;
+//     color: #343030;
+//   }
+// }

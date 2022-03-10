@@ -7,11 +7,6 @@
   overflow-x: hidden;
 }
 
-.summary {
-  position: absolute;
-  top: 100%;
-}
-
 nav {
   position: fixed;
   background-color: transparent;
@@ -62,24 +57,12 @@ nav {
 }
 
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-left: 74%;
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
+  text-align: center;
 }
 
 nav li {
   list-style-type: none;
+  margin-left: 5%;
   display: inline;
   font-size: 1.5rem;
 }
@@ -111,7 +94,7 @@ nav a i {
   font-family: "Poppins", sans-serif;
   position: absolute;
   top: 45%;
-  left: 74%;
+  left: 42%;
   -webkit-animation: fade ease 1s;
           animation: fade ease 1s;
   -webkit-animation-iteration-count: 1;
@@ -154,75 +137,8 @@ nav a i {
   }
 }
 
-.landing .introduction h1:nth-child(1) {
-  color: #837e79;
-}
-
-.landing .introduction h1:nth-child(2) {
-  color: #dd9036;
-}
-
-.landing .introduction h1:nth-child(3) {
-  color: #231f1f;
-}
-
-.bonus-information {
+.landing .introduction h1 {
   color: black;
-  left: 74%;
-  top: 82%;
-  position: absolute;
-  width: 8vw;
-}
-
-.bonus-information h1 {
-  font-size: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  color: #343030;
-}
-
-.bonus-information p {
-  font-size: 0.78rem;
-  font-family: "Poppins", sans-serif;
-  color: #343030;
-}
-
-.bonus-information_1 {
-  color: black;
-  left: 83%;
-  top: 82%;
-  position: absolute;
-  width: 8vw;
-}
-
-.bonus-information_1 h1 {
-  font-size: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  color: #343030;
-}
-
-.bonus-information_1 p {
-  font-size: 0.78rem;
-  font-family: "Poppins", sans-serif;
-  color: #343030;
-}
-
-.bonus-information_2 {
-  color: black;
-  left: 92%;
-  top: 82%;
-  position: absolute;
-  width: 8vw;
-}
-
-.bonus-information_2 h1 {
-  font-size: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  color: #343030;
-}
-
-.bonus-information_2 p {
-  font-size: 0.78rem;
-  font-family: "Poppins", sans-serif;
-  color: #343030;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
