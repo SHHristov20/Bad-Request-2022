@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 nav {
@@ -87,6 +91,7 @@ nav a i {
   background-image: url("../img/Landing.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 
 .landing .introduction {
@@ -140,5 +145,38 @@ nav a i {
 .landing .introduction h1 {
   color: black;
   text-align: center;
+}
+
+.btn {
+  width: 8%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.8%;
+  height: 5%;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  z-index: 1000;
+  position: absolute;
+  left: 45.7%;
+  top: 58%;
+}
+
+.btn:hover {
+  background-position: 100% 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn.hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ed6ea0), color-stop(#ec8c69), color-stop(#f7186a), to(#fbb03b));
+  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #fbb03b);
+  -webkit-box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+          box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
 /*# sourceMappingURL=style.css.map */

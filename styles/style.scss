@@ -36,6 +36,7 @@ nav {
   background-image: url("../img/Landing.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -1;
   .introduction {
     font-size: 1.1rem;
     font-family: "Poppins", sans-serif;
@@ -49,6 +50,34 @@ nav {
     }
   }
 }
+.btn {
+  width: 8%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.8%;
+  height: 5%;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+  z-index: 1000;
+  position: absolute;
+  left: 45.7%;
+  top: 58%;
+}
+.btn:hover {
+  background-position: 100% 0;
+  transition: all .4s ease-in-out;
+}
+
+.btn.hover {
+  background-image: linear-gradient(to right, #ed6ea0,#ec8c69,#f7186a,#fbb03b);
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
 // .bonus-information {
 //   color: black;
 //   left: 26%;
