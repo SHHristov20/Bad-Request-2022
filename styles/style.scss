@@ -1,12 +1,13 @@
 @import "config";
 @import "animations";
 @import "summary";
-@import "gallery";	
+@import "gallery";
 nav {
   position: fixed;
   background-color: transparent;
   padding: 1%;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
   width: 100%;
   z-index: 2;
   @include navAnimation;
@@ -42,11 +43,12 @@ nav {
   .introduction {
     font-size: 1.1rem;
     font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
     position: absolute;
     top: 45%;
     left: 42%;
     @include landingAnimation;
-    h1{
+    h1 {
       color: black;
       text-align: center;
     }
@@ -60,11 +62,11 @@ nav {
   cursor: pointer;
   margin: 0.8%;
   height: 5%;
-  text-align:center;
+  text-align: center;
   border: none;
   background-size: 300% 100%;
   border-radius: 50px;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   z-index: 1000;
   position: absolute;
   left: 45.7%;
@@ -72,11 +74,17 @@ nav {
 }
 .btn:hover {
   background-position: 100% 0;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn.hover {
-  background-image: linear-gradient(to right, #ed6ea0,#ec8c69,#f7186a,#fbb03b);
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
 
