@@ -27,14 +27,126 @@
   }
   .image-1 {
     position: absolute;
-    left: 41.3%;
+    left: 42.2%;
     top: 26%;
     z-index: 1;
   }
   .image-2 {
     position: absolute;
-    left: 50.1%;
-    top: 52.5%;
+    left: 51.3%;
+    top: 50.1%;
     z-index: 1;
+  }
+  .magnificent-history {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    top: 20%;
+    left: 17%;
+
+    .magnificent-history-header {
+      position: relative;
+      left: 3.2%;
+      margin-bottom: 1%;
+      font-size: 1.6rem;
+      max-width: 10%;
+      word-wrap: break-word;
+      word-break: normal;
+      text-align: center;
+    }
+    .magnificent-history-text {
+      font-size: 1.2rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      text-align: center;
+      max-width: 17%;
+      word-wrap: break-word;
+      word-break: normal;
+    }
+  }
+  .exceptional-traditions {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    top: 24%;
+    left: 20.4%;
+
+    .exceptional-traditions-header {
+      position: relative;
+      left: 3.2%;
+      margin-bottom: 1%;
+      font-size: 1.6rem;
+      max-width: 10%;
+      word-wrap: break-word;
+      word-break: normal;
+      text-align: center;
+    }
+    .exceptional-traditions-text {
+      font-size: 1.2rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      text-align: center;
+      max-width: 16.6%;
+      word-wrap: break-word;
+      word-break: normal;
+    }
+  }
+  .intertwining-cultures {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    top: 28%;
+    left: 25%;
+
+    .intertwining-cultures-header {
+      position: relative;
+      left: 4%;
+      margin-bottom: 1%;
+      font-size: 1.6rem;
+      max-width: 10%;
+      word-wrap: break-word;
+      word-break: normal;
+      text-align: center;
+    }
+    .intertwining-cultures-text {
+      font-size: 1.2rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      text-align: center;
+      max-width: 18%;
+      word-wrap: break-word;
+      word-break: normal;
+    }
+  }
+  .beginning-of-bulgaria {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    top: -24%;
+    left: 69%;
+
+    .beginning-of-bulgaria-header {
+      position: relative;
+      left: 0%;
+      margin-bottom: 2%;
+      font-size: 1.6rem;
+    }
+    .beginning-of-bulgaria-text {
+      font-size: 1.3rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      text-align: left;
+      max-width: 17%;
+      word-wrap: break-word;
+      word-break: normal;
+    }
   }
 }
