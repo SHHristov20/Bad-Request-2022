@@ -55,6 +55,7 @@ nav {
   }
 }
 .btn {
+  @include btnAnimation;
   width: 8%;
   font-size: 1rem;
   font-weight: 600;

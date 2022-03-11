@@ -39,3 +39,22 @@
     }
   }
 }
+
+@mixin btnAnimation {
+  animation: btn ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes btn {
+    0% {
+      @include transition-ease;
+      filter: blur(5px);
+      top: 80%;
+    }
+    100% {
+      @include transition-ease;
+      filter: blur(0px);
+      bottom: -20%;
+    }
+  }
+}
