@@ -14,9 +14,10 @@
 .summary {
   position: absolute;
   background-image: url("../img/Summary.svg");
+  background-size: cover;
   top: 114%;
   width: 100%;
-  height: 88.5%;
+  height: 125%;
   background-repeat: no-repeat;
 }
 
@@ -28,6 +29,15 @@
   background-size: cover;
   width: 100%;
   height: 15%;
+}
+
+.gallery {
+  position: absolute;
+  background-image: url("../img/Gallery.svg");
+  background-size: cover;
+  height: 122%;
+  width: 100%;
+  top: 239%;
 }
 
 nav {
