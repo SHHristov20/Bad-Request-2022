@@ -18,6 +18,19 @@
   font-weight: 400;
 }
 
+.section--hidden {
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  opacity: 0;
+  -webkit-transform: translateY(8rem);
+          transform: translateY(8rem);
+}
+
+.section {
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
 .waves {
   background-image: url("../img/waves.svg");
   position: absolute;

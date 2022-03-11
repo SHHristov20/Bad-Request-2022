@@ -1,4 +1,14 @@
 @import "config";
+@import "animations";
+
+.section--hidden {
+  @include transition-ease;
+  opacity: 0;
+  transform: translateY(8rem);
+}
+.section {
+  @include transition-ease;
+}
 .waves {
   background-image: url("../img/waves.svg");
   position: absolute;
