@@ -88,7 +88,18 @@ nav {
   );
   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
-
+.orangeBlob{
+  z-index: -1;
+  left: 35%;
+  position: absolute;
+  
+}
+.redBlob{
+  left: 75%;
+  top: -20%;
+  position: absolute;
+  overflow-y: hidden;
+}
 // .bonus-information {
 //   color: black;
 //   left: 26%;
