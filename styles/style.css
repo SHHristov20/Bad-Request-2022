@@ -198,9 +198,18 @@
   position: absolute;
   background-image: url("../img/Gallery.svg");
   background-size: cover;
-  height: 122%;
+  height: 185%;
   width: 100%;
   top: 239%;
+}
+
+.gallery p {
+  font-size: 3.2rem;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 34%;
 }
 
 nav {
