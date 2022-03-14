@@ -10,7 +10,7 @@
   @include transition-ease;
 }
 .waves {
-  background-image: url("../img/waves.svg");
+  background-image: url("../img/svg/waves.svg");
   position: absolute;
   top: 100%;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 
 .summary {
   position: absolute;
-  background-image: url("../img/Summary.svg");
+  background-image: url("../img/svg/Summary.svg");
   background-size: cover;
   top: 114%;
   width: 100%;
