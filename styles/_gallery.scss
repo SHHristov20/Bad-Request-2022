@@ -1,3 +1,5 @@
+@import "summary";
+@import "style";
 .gallery {
   background-image: url("../img/brownWaveDownSide.svg");
   position: absolute;
@@ -34,6 +36,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  overflow: hidden;
 
   img {
     position: relative;
@@ -84,12 +87,15 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
   .srebarna-title {
+    overflow: hidden;
     color: #fff;
     font-size: 2.2rem;
     z-index: 12;
   }
   .srebarna-content {
+    overflow: hidden;
     color: #fff;
     font-size: 1.1rem;
     z-index: 12;
@@ -97,6 +103,7 @@
     padding-bottom: 1%;
   }
   .srebarna-button {
+    overflow: hidden;
     width: 70%;
     height: 22%;
     font-size: 1.4rem;
@@ -118,18 +125,22 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
   .rila-title {
+    overflow: hidden;
     color: #fff;
     font-size: 2.2rem;
     z-index: 12;
   }
   .rila-content {
+    overflow: hidden;
     color: #fff;
     font-size: 1.1rem;
     z-index: 12;
     font-family: "Cormorant Garamond";
   }
   .rila-button {
+    overflow: hidden;
     width: 70%;
     height: 22%;
     font-size: 1.4rem;
@@ -151,18 +162,22 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
   .madara-title {
+    overflow: hidden;
     color: #fff;
     font-size: 2.2rem;
     z-index: 12;
   }
   .madara-content {
+    overflow: hidden;
     color: #fff;
     font-size: 1.1rem;
     z-index: 12;
     font-family: "Cormorant Garamond";
   }
   .madara-button {
+    overflow: hidden;
     width: 70%;
     height: 21%;
     font-size: 1.4rem;
@@ -184,18 +199,22 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
   .prohodna-title {
+    overflow: hidden;
     color: #fff;
     font-size: 2.2rem;
     z-index: 12;
   }
   .prohodna-content {
+    overflow: hidden;
     color: #fff;
     font-size: 1.1rem;
     z-index: 12;
     font-family: "Cormorant Garamond";
   }
   .prohodna-button {
+    overflow: hidden;
     width: 70%;
     height: 21%;
     font-size: 1.4rem;

@@ -235,6 +235,7 @@
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  overflow: hidden;
 }
 
 .slider img {
@@ -290,15 +291,18 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
 }
 
 .srebarna-text .srebarna-title {
+  overflow: hidden;
   color: #fff;
   font-size: 2.2rem;
   z-index: 12;
 }
 
 .srebarna-text .srebarna-content {
+  overflow: hidden;
   color: #fff;
   font-size: 1.1rem;
   z-index: 12;
@@ -307,6 +311,7 @@
 }
 
 .srebarna-text .srebarna-button {
+  overflow: hidden;
   width: 70%;
   height: 22%;
   font-size: 1.4rem;
@@ -327,15 +332,18 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
 }
 
 .rila-text .rila-title {
+  overflow: hidden;
   color: #fff;
   font-size: 2.2rem;
   z-index: 12;
 }
 
 .rila-text .rila-content {
+  overflow: hidden;
   color: #fff;
   font-size: 1.1rem;
   z-index: 12;
@@ -343,6 +351,7 @@
 }
 
 .rila-text .rila-button {
+  overflow: hidden;
   width: 70%;
   height: 22%;
   font-size: 1.4rem;
@@ -363,15 +372,18 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
 }
 
 .madara-text .madara-title {
+  overflow: hidden;
   color: #fff;
   font-size: 2.2rem;
   z-index: 12;
 }
 
 .madara-text .madara-content {
+  overflow: hidden;
   color: #fff;
   font-size: 1.1rem;
   z-index: 12;
@@ -379,6 +391,7 @@
 }
 
 .madara-text .madara-button {
+  overflow: hidden;
   width: 70%;
   height: 21%;
   font-size: 1.4rem;
@@ -399,15 +412,18 @@
   max-width: 13%;
   word-wrap: break-word;
   word-break: normal;
+  overflow: hidden;
 }
 
 .prohodna-text .prohodna-title {
+  overflow: hidden;
   color: #fff;
   font-size: 2.2rem;
   z-index: 12;
 }
 
 .prohodna-text .prohodna-content {
+  overflow: hidden;
   color: #fff;
   font-size: 1.1rem;
   z-index: 12;
@@ -415,6 +431,7 @@
 }
 
 .prohodna-text .prohodna-button {
+  overflow: hidden;
   width: 70%;
   height: 21%;
   font-size: 1.4rem;

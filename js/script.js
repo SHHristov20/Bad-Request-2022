@@ -6,7 +6,7 @@ allSections.forEach((section) => {
 });
 const revealSection = (entries, observer) => {
   const [entry] = entries;
-  //   console.log(entry);
+  // console.log(entry);
 
   if (!entry.isIntersecting) return;
 
