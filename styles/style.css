@@ -244,6 +244,8 @@
   border-radius: 10px;
   height: 80%;
   z-index: 5;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .slider .gray {
@@ -255,7 +257,8 @@
   background-color: #eeecec;
 }
 
-button {
+.btn-before,
+.btn-after {
   z-index: 6;
   width: 60px;
   height: 60px;
@@ -277,6 +280,151 @@ button {
   position: absolute;
   top: 307.5%;
   left: 96.8%;
+}
+
+.srebarna-text {
+  position: absolute;
+  top: 319.5%;
+  left: 6%;
+  height: 20%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.srebarna-text .srebarna-title {
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.srebarna-text .srebarna-content {
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+  padding-bottom: 1%;
+}
+
+.srebarna-text .srebarna-button {
+  width: 70%;
+  height: 22%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
+}
+
+.rila-text {
+  position: absolute;
+  top: 319.5%;
+  left: 31%;
+  height: 21%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.rila-text .rila-title {
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.rila-text .rila-content {
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+}
+
+.rila-text .rila-button {
+  width: 70%;
+  height: 22%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
+}
+
+.madara-text {
+  position: absolute;
+  top: 317.2%;
+  left: 56%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.madara-text .madara-title {
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.madara-text .madara-content {
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+}
+
+.madara-text .madara-button {
+  width: 70%;
+  height: 21%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
+}
+
+.prohodna-text {
+  position: absolute;
+  top: 317%;
+  left: 81%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.prohodna-text .prohodna-title {
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.prohodna-text .prohodna-content {
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+}
+
+.prohodna-text .prohodna-button {
+  width: 70%;
+  height: 21%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
 }
 
 nav {
