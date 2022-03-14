@@ -195,21 +195,88 @@
 }
 
 .gallery {
+  background-image: url("../img/brownWaveDownSide.svg");
   position: absolute;
-  background-image: url("../img/Gallery.svg");
-  background-size: cover;
-  height: 185%;
-  width: 100%;
   top: 239%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25%;
 }
 
-.gallery p {
-  font-size: 3.2rem;
-  font-style: italic;
-  font-family: 'Poppins', sans-serif;
+.title {
   position: absolute;
-  top: 20%;
-  left: 34%;
+  top: 270%;
+  width: 30%;
+  height: 10%;
+  left: 40%;
+  text-align: center;
+}
+
+.title .gallery-title {
+  position: absolute;
+  font-size: 2.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.slider {
+  position: absolute;
+  top: 280%;
+  width: 100%;
+  height: 69%;
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.slider img {
+  position: relative;
+  top: 10%;
+  width: 15%;
+  border-radius: 10px;
+  height: 80%;
+  z-index: 5;
+}
+
+.slider .gray {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 60%;
+  z-index: 2;
+  background-color: #eeecec;
+}
+
+button {
+  z-index: 6;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #cec5b0;
+  font-size: 2rem;
+}
+
+.btn-before {
+  position: absolute;
+  top: 307.5%;
+  left: 0%;
+}
+
+.btn-after {
+  position: absolute;
+  top: 307.5%;
+  left: 96.8%;
 }
 
 nav {

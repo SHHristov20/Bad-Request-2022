@@ -1,16 +1,75 @@
-.gallery{
+.gallery {
+  background-image: url("../img/brownWaveDownSide.svg");
+  position: absolute;
+  top: 239%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25%;
+}
+
+.title {
+  position: absolute;
+  top: 270%;
+  width: 30%;
+  height: 10%;
+  left: 40%;
+  text-align: center;
+
+  .gallery-title {
     position: absolute;
-    background-image: url("../img/Gallery.svg");
-    background-size: cover;
-    height: 185%;
+    font-size: 2.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+}
+
+.slider {
+  // background-color: darkkhaki;
+  position: absolute;
+  top: 280%;
+  width: 100%;
+  height: 69%;
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  img {
+    position: relative;
+    top: 10%;
+    width: 15%;
+    border-radius: 10px;
+    height: 80%;
+    z-index: 5;
+  }
+  .gray {
+    position: absolute;
+    top: 40%;
     width: 100%;
-    top: 239%;
-    p{
-        font-size: 3.2rem;
-        font-style: italic;
-        font-family: 'Poppins', sans-serif;
-        position: absolute;
-        top: 20%;
-        left: 34%;
-    }
+    height: 60%;
+    z-index: 2;
+    background-color: #eeecec;
+  }
+}
+button {
+  z-index: 6;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(206, 197, 176);
+  font-size: 2rem;
+}
+.btn-before {
+  position: absolute;
+  top: 307.5%;
+  left: 0%;
+}
+.btn-after {
+  position: absolute;
+  top: 307.5%;
+  left: 96.8%;
 }
