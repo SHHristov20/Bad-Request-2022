@@ -630,6 +630,170 @@
   cursor: pointer;
 }
 
+.lakes-text {
+  position: absolute;
+  top: 317%;
+  left: 81%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+}
+
+.lakes-text .lakes-title {
+  overflow: hidden;
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.lakes-text .lakes-content {
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+}
+
+.lakes-text .lakes-button {
+  overflow: hidden;
+  width: 70%;
+  height: 21%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
+}
+
+.belintash-text {
+  position: absolute;
+  top: 317%;
+  left: 81%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+}
+
+.belintash-text .belintash-title {
+  overflow: hidden;
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.belintash-text .belintash-content {
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+}
+
+.belintash-text .belintash-button {
+  overflow: hidden;
+  width: 70%;
+  height: 21%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
+}
+
+.throat-text {
+  position: absolute;
+  top: 317%;
+  left: 81%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+}
+
+.throat-text .throat-title {
+  overflow: hidden;
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.throat-text .throat-content {
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+}
+
+.throat-text .throat-button {
+  overflow: hidden;
+  width: 70%;
+  height: 21%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
+}
+
+.bridges-text {
+  position: absolute;
+  top: 312%;
+  left: 81%;
+  height: 27%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+}
+
+.bridges-text .bridges-title {
+  overflow: hidden;
+  color: #fff;
+  font-size: 2.2rem;
+  z-index: 12;
+}
+
+.bridges-text .bridges-content {
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.1rem;
+  z-index: 12;
+  font-family: "Cormorant Garamond";
+}
+
+.bridges-text .bridges-button {
+  overflow: hidden;
+  width: 68%;
+  height: 19%;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+  cursor: pointer;
+}
+
 .slide-left {
   -webkit-animation: img1 ease 1s;
           animation: img1 ease 1s;
@@ -1203,6 +1367,150 @@
     -webkit-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
     left: 31%;
+  }
+}
+
+.slide-text7 {
+  -webkit-animation: a8 ease 1s;
+          animation: a8 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 20;
+}
+
+@-webkit-keyframes a8 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 130%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 81%;
+  }
+}
+
+@keyframes a8 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 130%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 81%;
+  }
+}
+
+.slide-text8 {
+  -webkit-animation: a9 ease 1s;
+          animation: a9 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 20;
+}
+
+@-webkit-keyframes a9 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 81%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+}
+
+@keyframes a9 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 81%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+}
+
+.slide-text9 {
+  -webkit-animation: a10 ease 1s;
+          animation: a10 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 20;
+}
+
+@-webkit-keyframes a10 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+}
+
+@keyframes a10 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+}
+
+.slide-text10 {
+  -webkit-animation: a11 ease 1s;
+          animation: a11 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 20;
+}
+
+@-webkit-keyframes a11 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+}
+
+@keyframes a11 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
   }
 }
 

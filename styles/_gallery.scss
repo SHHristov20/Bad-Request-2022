@@ -227,6 +227,154 @@
     cursor: pointer;
   }
 }
+.lakes-text {
+  position: absolute;
+  top: 317%;
+  left: 81%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+  .lakes-title {
+    overflow: hidden;
+    color: #fff;
+    font-size: 2.2rem;
+    z-index: 12;
+  }
+  .lakes-content {
+    overflow: hidden;
+    color: #fff;
+    font-size: 1.1rem;
+    z-index: 12;
+    font-family: "Cormorant Garamond";
+  }
+  .lakes-button {
+    overflow: hidden;
+    width: 70%;
+    height: 21%;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    cursor: pointer;
+  }
+}
+.belintash-text {
+  position: absolute;
+  top: 317%;
+  left: 81%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+  .belintash-title {
+    overflow: hidden;
+    color: #fff;
+    font-size: 2.2rem;
+    z-index: 12;
+  }
+  .belintash-content {
+    overflow: hidden;
+    color: #fff;
+    font-size: 1.1rem;
+    z-index: 12;
+    font-family: "Cormorant Garamond";
+  }
+  .belintash-button {
+    overflow: hidden;
+    width: 70%;
+    height: 21%;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    cursor: pointer;
+  }
+}
+.throat-text {
+  position: absolute;
+  top: 317%;
+  left: 81%;
+  height: 23%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+  .throat-title {
+    overflow: hidden;
+    color: #fff;
+    font-size: 2.2rem;
+    z-index: 12;
+  }
+  .throat-content {
+    overflow: hidden;
+    color: #fff;
+    font-size: 1.1rem;
+    z-index: 12;
+    font-family: "Cormorant Garamond";
+  }
+  .throat-button {
+    overflow: hidden;
+    width: 70%;
+    height: 21%;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    cursor: pointer;
+  }
+}
+.bridges-text {
+  position: absolute;
+  top: 312%;
+  left: 81%;
+  height: 27%;
+  max-width: 13%;
+  word-wrap: break-word;
+  word-break: normal;
+  overflow: hidden;
+  z-index: 15;
+  .bridges-title {
+    overflow: hidden;
+    color: #fff;
+    font-size: 2.2rem;
+    z-index: 12;
+  }
+  .bridges-content {
+    overflow: hidden;
+    color: #fff;
+    font-size: 1.1rem;
+    z-index: 12;
+    font-family: "Cormorant Garamond";
+  }
+  .bridges-button {
+    overflow: hidden;
+    width: 68%;
+    height: 19%;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    cursor: pointer;
+  }
+}
 .slide-left {
   @include galleryIMG1;
 }
@@ -274,6 +422,18 @@
 }
 .slide-text6 {
   @include textAnimation6;
+}
+.slide-text7 {
+  @include textAnimation7;
+}
+.slide-text8 {
+  @include textAnimation8;
+}
+.slide-text9 {
+  @include textAnimation9;
+}
+.slide-text10 {
+  @include textAnimation10;
 }
 .hidden {
   display: none;

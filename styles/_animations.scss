@@ -315,3 +315,67 @@
     }
   }
 }
+@mixin textAnimation7 {
+  animation: a8 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 20;
+  @keyframes a8 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 130%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 81%;
+    }
+  }
+}
+@mixin textAnimation8 {
+  animation: a9 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 20;
+  @keyframes a9 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 81%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 56%;
+    }
+  }
+}
+@mixin textAnimation9 {
+  animation: a10 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 20;
+  @keyframes a10 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 56%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 31%;
+    }
+  }
+}
+@mixin textAnimation10 {
+  animation: a11 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 20;
+  @keyframes a11 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 31%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 6%;
+    }
+  }
+}

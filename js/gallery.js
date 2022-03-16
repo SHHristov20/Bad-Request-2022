@@ -4,6 +4,10 @@ const srebarnaText = document.querySelector(".srebarna-text");
 const rilaText = document.querySelector(".rila-text");
 const madaraText = document.querySelector(".madara-text");
 const prohodnaText = document.querySelector(".prohodna-text");
+const lakesText = document.querySelector(".lakes-text");
+const belintashText = document.querySelector(".belintash-text");
+const throatText = document.querySelector(".throat-text");
+const bridgesText = document.querySelector(".bridges-text");
 const image5 = document.querySelector(".img5");
 const image6 = document.querySelector(".img6");
 const image7 = document.querySelector(".img7");
@@ -30,6 +34,8 @@ btnBefore.addEventListener("click", () => {
     prohodnaText.classList.add("slide-text3");
     image5.classList.remove("hidden");
     image5.classList.add("slide-left5");
+    lakesText.classList.remove("hidden");
+    lakesText.classList.add("slide-text7");
   }
   if (currentImage === 1) {
     galleryImages[currentImage].classList.add("slide-left2");
@@ -44,6 +50,10 @@ btnBefore.addEventListener("click", () => {
     image5.classList.add("slide-left6");
     image6.classList.remove("hidden");
     image6.classList.add("slide-left5");
+    lakesText.classList.remove("slide-text7");
+    lakesText.classList.add("slide-text8");
+    belintashText.classList.remove("hidden");
+    belintashText.classList.add("slide-text7");
   }
   if (currentImage === 2) {
     galleryImages[currentImage].classList.add("slide-left3");
@@ -61,6 +71,12 @@ btnBefore.addEventListener("click", () => {
     image6.classList.add("slide-left6");
     image7.classList.remove("hidden");
     image7.classList.add("slide-left5");
+    lakesText.classList.remove("slide-text8");
+    lakesText.classList.add("slide-text9");
+    belintashText.classList.remove("slide-text7");
+    belintashText.classList.add("slide-text8");
+    throatText.classList.remove("hidden");
+    throatText.classList.add("slide-text7");
   }
   if (currentImage === 3) {
     galleryImages[currentImage].classList.add("slide-left4");
@@ -78,6 +94,14 @@ btnBefore.addEventListener("click", () => {
     image7.classList.add("slide-left6");
     image8.classList.remove("hidden");
     image8.classList.add("slide-left5");
+    lakesText.classList.remove("slide-text9");
+    lakesText.classList.add("slide-text10");
+    belintashText.classList.remove("slide-text8");
+    belintashText.classList.add("slide-text9");
+    throatText.classList.remove("slide-text7");
+    throatText.classList.add("slide-text8");
+    bridgesText.classList.remove("hidden");
+    bridgesText.classList.add("slide-text7");
   }
   currentImage++;
 });
