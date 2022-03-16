@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800;900&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,6 +8,191 @@
   padding: 0;
   overflow-x: hidden;
   font-weight: 400;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-weight: 400;
+}
+
+.section--hidden {
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  opacity: 0;
+  -webkit-transform: translateY(8rem);
+          transform: translateY(8rem);
+}
+
+.section {
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.waves {
+  background-image: url("../img/svg/waves.svg");
+  position: absolute;
+  top: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 15%;
+}
+
+.summary {
+  position: absolute;
+  background-image: url("../img/svg/Summary.svg");
+  background-size: cover;
+  top: 114%;
+  width: 100%;
+  height: 125%;
+  background-repeat: no-repeat;
+}
+
+.summary .summary-header {
+  position: relative;
+  font-size: 2.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  top: 20%;
+  left: 41.4%;
+}
+
+.summary .image-1 {
+  position: absolute;
+  left: 42.2%;
+  top: 26%;
+  z-index: 1;
+}
+
+.summary .image-2 {
+  position: absolute;
+  left: 51.3%;
+  top: 50.1%;
+  z-index: 1;
+}
+
+.summary .magnificent-history {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  position: relative;
+  top: 20%;
+  left: 17%;
+}
+
+.summary .magnificent-history .magnificent-history-header {
+  position: relative;
+  left: 3.2%;
+  margin-bottom: 1%;
+  font-size: 1.6rem;
+  max-width: 10%;
+  word-wrap: break-word;
+  word-break: normal;
+  text-align: center;
+}
+
+.summary .magnificent-history .magnificent-history-text {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  max-width: 17%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.summary .exceptional-traditions {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  position: relative;
+  top: 24%;
+  left: 20.4%;
+}
+
+.summary .exceptional-traditions .exceptional-traditions-header {
+  position: relative;
+  left: 3.2%;
+  margin-bottom: 1%;
+  font-size: 1.6rem;
+  max-width: 10%;
+  word-wrap: break-word;
+  word-break: normal;
+  text-align: center;
+}
+
+.summary .exceptional-traditions .exceptional-traditions-text {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  max-width: 16.6%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.summary .intertwining-cultures {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  position: relative;
+  top: 28%;
+  left: 25%;
+}
+
+.summary .intertwining-cultures .intertwining-cultures-header {
+  position: relative;
+  left: 4%;
+  margin-bottom: 1%;
+  font-size: 1.6rem;
+  max-width: 10%;
+  word-wrap: break-word;
+  word-break: normal;
+  text-align: center;
+}
+
+.summary .intertwining-cultures .intertwining-cultures-text {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  max-width: 18%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.summary .beginning-of-bulgaria {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  position: relative;
+  top: -24%;
+  left: 69%;
+}
+
+.summary .beginning-of-bulgaria .beginning-of-bulgaria-header {
+  position: relative;
+  left: 0%;
+  margin-bottom: 2%;
+  font-size: 1.6rem;
+}
+
+.summary .beginning-of-bulgaria .beginning-of-bulgaria-text {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: left;
+  max-width: 17%;
+  word-wrap: break-word;
+  word-break: normal;
 }
 
 * {
@@ -442,6 +628,550 @@
   color: #ffffff;
   font-family: "Cormorant Garamond";
   cursor: pointer;
+}
+
+.slide-left {
+  -webkit-animation: img1 ease 1s;
+          animation: img1 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes img1 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 0;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -20%;
+  }
+}
+
+@keyframes img1 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 0;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -20%;
+  }
+}
+
+.slide-left1 {
+  -webkit-animation: img2 ease 1s;
+          animation: img2 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes img2 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 0;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -25%;
+  }
+}
+
+@keyframes img2 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 0;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -25%;
+  }
+}
+
+.slide-left2 {
+  -webkit-animation: img3 ease 1s;
+          animation: img3 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes img3 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -25%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -50%;
+  }
+}
+
+@keyframes img3 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -25%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -50%;
+  }
+}
+
+.slide-left3 {
+  -webkit-animation: img4 ease 1s;
+          animation: img4 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes img4 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -50%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -75%;
+  }
+}
+
+@keyframes img4 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -50%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -75%;
+  }
+}
+
+.slide-left4 {
+  -webkit-animation: img5 ease 1s;
+          animation: img5 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes img5 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -75%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -95%;
+  }
+}
+
+@keyframes img5 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -75%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -95%;
+  }
+}
+
+.slide-text {
+  -webkit-animation: a1 ease 1s;
+          animation: a1 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a1 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -13%;
+  }
+}
+
+@keyframes a1 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -13%;
+  }
+}
+
+.slide-text1 {
+  -webkit-animation: a2 ease 1s;
+          animation: a2 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a2 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+}
+
+@keyframes a2 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+}
+
+.slide-text2 {
+  -webkit-animation: a3 ease 1s;
+          animation: a3 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a3 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+}
+
+@keyframes a3 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+}
+
+.slide-text3 {
+  -webkit-animation: a4 ease 1s;
+          animation: a4 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a4 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 81%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+}
+
+@keyframes a4 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 81%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+}
+
+.slide-text4 {
+  -webkit-animation: a5 ease 1.3s;
+          animation: a5 ease 1.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a5 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -30%;
+  }
+}
+
+@keyframes a5 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: -30%;
+  }
+}
+
+.slide-text5 {
+  -webkit-animation: a6 ease 1s;
+          animation: a6 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a6 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+}
+
+@keyframes a6 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 6%;
+  }
+}
+
+.slide-text6 {
+  -webkit-animation: a7 ease 1s;
+          animation: a7 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a7 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+}
+
+@keyframes a7 {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 56%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    left: 31%;
+  }
+}
+
+.slide-text7 {
+  -webkit-animation: a8 ease 0.9s;
+          animation: a8 ease 0.9s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a8 {
+  0% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: -13%;
+  }
+}
+
+@keyframes a8 {
+  0% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: -13%;
+  }
+}
+
+.slide-text8 {
+  -webkit-animation: a9 ease 1s;
+          animation: a9 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a9 {
+  0% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 6%;
+  }
+}
+
+@keyframes a9 {
+  0% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 31%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 6%;
+  }
+}
+
+.slide-text9 {
+  -webkit-animation: a10 ease 1s;
+          animation: a10 ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@-webkit-keyframes a10 {
+  0% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: -13%;
+  }
+}
+
+@keyframes a10 {
+  0% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 6%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: -13%;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 nav {

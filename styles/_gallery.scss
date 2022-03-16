@@ -1,5 +1,5 @@
 @import "summary";
-@import "style";
+@import "animations";
 .gallery {
   background-image: url("../img/svg/brownWaveDownSide.svg");
   position: absolute;
@@ -226,4 +226,52 @@
     font-family: "Cormorant Garamond";
     cursor: pointer;
   }
+}
+.slide-left {
+  @include galleryIMG1;
+}
+.slide-left1 {
+  @include galleryIMG2;
+}
+.slide-left2 {
+  @include galleryIMG3;
+}
+.slide-left3 {
+  @include galleryIMG4;
+}
+.slide-left4 {
+  @include galleryIMG5;
+}
+.slide-text {
+  @include textAnimation;
+}
+.slide-text1 {
+  @include textAnimation1;
+}
+.slide-text2 {
+  @include textAnimation2;
+}
+.slide-text3 {
+  @include textAnimation3;
+}
+.slide-text4 {
+  @include textAnimation4;
+}
+.slide-text5 {
+  @include textAnimation5;
+}
+.slide-text6 {
+  @include textAnimation6;
+}
+.slide-text7 {
+  @include textAnimation7;
+}
+.slide-text8 {
+  @include textAnimation8;
+}
+.slide-text9 {
+  @include textAnimation9;
+}
+.hidden {
+  display: none;
 }
