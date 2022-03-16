@@ -63,14 +63,21 @@ btnBefore.addEventListener("click", () => {
   }
   if (currentImage === 2) {
     galleryImages[currentImage].classList.add("slide-left3");
-    madaraText.classList.add("slide-text7");
+    madaraText.classList.remove("slide-text2");
+    madaraText.classList.remove("slide-text5");
+    madaraText.classList.add("slide-text");
     galleryImages[currentImage + 1].classList.add("slide-left3");
-    prohodnaText.classList.add("slide-text8");
+    prohodnaText.classList.remove("slide-text3");
+    prohodnaText.classList.remove("slide-text6");
+    prohodnaText.classList.add("slide-text1");
     galleryImages[0].classList.add("slide-left");
   }
   if (currentImage === 3) {
     galleryImages[currentImage].classList.add("slide-left4");
-    prohodnaText.classList.add("slide-text9");
+    prohodnaText.classList.remove("slide-text1");
+    prohodnaText.classList.remove("slide-text3");
+    prohodnaText.classList.remove("slide-text6");
+    prohodnaText.classList.add("slide-text");
     galleryImages[0].classList.add("slide-left");
     srebarnaText.classList.add("slide-left");
   }
