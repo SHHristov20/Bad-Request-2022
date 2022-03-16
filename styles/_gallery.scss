@@ -242,6 +242,18 @@
 .slide-left4 {
   @include galleryIMG5;
 }
+.slide-left5 {
+  @include galleryIMG6;
+}
+.slide-left6 {
+  @include galleryIMG7;
+}
+.slide-left7 {
+  @include galleryIMG8;
+}
+.slide-left8 {
+  @include galleryIMG9;
+}
 .slide-text {
   @include textAnimation;
 }
@@ -265,4 +277,16 @@
 }
 .hidden {
   display: none;
+}
+
+.img5 {
+  position: absolute;
+  top: 287%;
+  width: 15%;
+  left: 80%;
+  border-radius: 10px;
+  height: 55%;
+  z-index: 5;
+  // object-fit: cover;
+  // opacity: 1;
 }
