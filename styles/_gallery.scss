@@ -446,6 +446,22 @@
 .slide-left19 {
   @include galleryIMG20;
 }
+.slide-left20 {
+  @include galleryIMG21;
+}
+.slide-left21 {
+  @include galleryIMG22;
+}
+.slide-left22 {
+  @include galleryIMG23;
+}
+.slide-left23 {
+  @include galleryIMG24;
+}
+.slide-left24 {
+  @include galleryIMG25;
+}
+
 .slide-text {
   @include textAnimation;
 }
@@ -481,6 +497,36 @@
 }
 .slide-text11 {
   @include textAnimation11;
+}
+.slide-text12 {
+  @include textAnimation12;
+}
+.slide-text13 {
+  @include textAnimation13;
+}
+.slide-text14 {
+  @include textAnimation14;
+}
+.slide-text15 {
+  @include textAnimation15;
+}
+.slide-text16 {
+  @include textAnimation16;
+}
+.slide-text17 {
+  @include textAnimation17;
+}
+.slide-text18 {
+  @include textAnimation18;
+}
+.slide-text19 {
+  @include textAnimation19;
+}
+.slide-text20 {
+  @include textAnimation20;
+}
+.slide-text21 {
+  @include textAnimation21;
 }
 .hidden {
   display: none;
