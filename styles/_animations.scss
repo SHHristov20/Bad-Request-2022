@@ -203,6 +203,182 @@
     }
   }
 }
+@mixin galleryIMG10 {
+  animation: img10 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img10 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 5%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: -15%;
+    }
+  }
+}
+@mixin galleryIMG11 {
+  animation: img11 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img11 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 120%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 37.5%;
+    }
+  }
+}
+@mixin galleryIMG12 {
+  animation: img12 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img12 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 62%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 37.5%;
+    }
+  }
+}
+@mixin galleryIMG13 {
+  animation: img13 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img13 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 60%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 12.5%;
+    }
+  }
+}
+@mixin galleryIMG14 {
+  animation: img14 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img14 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 45%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 21%;
+    }
+  }
+}
+@mixin galleryIMG15 {
+  animation: img15 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img15 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 36%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 12.5%;
+    }
+  }
+}
+@mixin galleryIMG16 {
+  animation: img16 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img16 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 120%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 4%;
+    }
+  }
+}
+@mixin galleryIMG17 {
+  animation: img17 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img17 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 25%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 0%;
+    }
+  }
+}
+@mixin galleryIMG18 {
+  animation: img18 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img18 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 24.5%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 0%;
+    }
+  }
+}
+@mixin galleryIMG19 {
+  animation: img19 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img19 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 25%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 0%;
+    }
+  }
+}
+@mixin galleryIMG20 {
+  animation: img20 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 10;
+  @keyframes img20 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 20%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: 0%;
+    }
+  }
+}
 @mixin textAnimation {
   animation: a1 ease 1s;
   animation-iteration-count: 1;
@@ -323,7 +499,7 @@
   @keyframes a8 {
     0% {
       transition: all 0.5s ease-in;
-      left: 130%;
+      left: 120%;
     }
     100% {
       transition: all 0.5s ease-in;
@@ -376,6 +552,22 @@
     100% {
       transition: all 0.5s ease-in;
       left: 6%;
+    }
+  }
+}
+@mixin textAnimation11 {
+  animation: a12 ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 20;
+  @keyframes a12 {
+    0% {
+      transition: all 0.5s ease-in;
+      left: 6%;
+    }
+    100% {
+      transition: all 0.5s ease-in;
+      left: -13%;
     }
   }
 }
