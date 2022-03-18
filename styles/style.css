@@ -2993,12 +2993,18 @@ nav li {
   font-size: 1.5rem;
 }
 
-nav a {
+@media screen and (max-width: 1536px) {
+  nav li {
+    font-size: 1.2rem;
+  }
+}
+
+a {
   color: black;
   cursor: pointer;
 }
 
-nav a i {
+a i {
   font-size: 1.2rem;
   margin-right: 0.7vw;
   cursor: pointer;
@@ -3154,5 +3160,28 @@ nav a i {
   top: -20%;
   position: absolute;
   overflow-y: hidden;
+}
+
+@media screen and (max-width: 1536px) {
+  .introduction h1 {
+    font-size: 1.75rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+  .redBlob {
+    top: -22%;
+    height: 110%;
+  }
+  .orangeBlob {
+    top: -12%;
+  }
+  .yellowBlob {
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    width: 23%;
+    left: -5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

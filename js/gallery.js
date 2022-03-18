@@ -541,7 +541,6 @@ btnAfter.addEventListener("click", function () {
     currentImage = -1;
   }
   if (currentImage === 6) {
-    console.log("hui");
     madaraText.classList.remove("slide-text");
     madaraText.classList.add("slide-text12");
     prohodnaText.classList.remove("slide-text");
@@ -557,7 +556,6 @@ btnAfter.addEventListener("click", function () {
     currentImage = -2;
   }
   if (currentImage === 5) {
-    console.log("hui");
     image5.classList.remove("slide-left9");
     image5.classList.add("hidden");
     image6.classList.remove("slide-left9");
@@ -600,7 +598,6 @@ btnAfter.addEventListener("click", function () {
   }
 
   if (currentImage === 3) {
-    console.log("hui");
     image5.classList.remove("slide-left9");
     image5.classList.add("hidden");
     image6.classList.remove("slide-left9");

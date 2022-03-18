@@ -20,15 +20,20 @@ nav {
     display: inline;
     font-size: 1.5rem;
   }
-  a {
-    color: black;
-    cursor: pointer;
-    i {
+  @media screen and (max-width: 1536px) {
+    li {
       font-size: 1.2rem;
-      margin-right: 0.7vw;
-      cursor: pointer;
-      color: black;
     }
+  }
+}
+a {
+  color: black;
+  cursor: pointer;
+  i {
+    font-size: 1.2rem;
+    margin-right: 0.7vw;
+    cursor: pointer;
+    color: black;
   }
 }
 .landing {
@@ -77,7 +82,6 @@ nav {
   background-position: 100% 0;
   transition: all 0.4s ease-in-out;
 }
-
 .btn.hover {
   background-image: linear-gradient(
     to right,
@@ -88,17 +92,40 @@ nav {
   );
   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
-.orangeBlob{
+.orangeBlob {
   z-index: -1;
   left: 35%;
   position: absolute;
-  
 }
-.redBlob{
+.redBlob {
   left: 75%;
   top: -20%;
   position: absolute;
   overflow-y: hidden;
+}
+@media screen and (max-width: 1536px) {
+  .introduction {
+    h1 {
+      font-size: 1.75rem;
+    }
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+  .redBlob {
+    top: -22%;
+    height: 110%;
+  }
+  .orangeBlob {
+    top: -12%;
+  }
+  .yellowBlob {
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    width: 23%;
+    left: -5%;
+  }
 }
 // .bonus-information {
 //   color: black;
