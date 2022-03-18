@@ -63,6 +63,120 @@ btnBefore.addEventListener("click", () => {
     // image5.style.visibility = "hidden";
     currentImage = 5;
   }
+  if (currentImage === -4) {
+    rilaText.classList.remove("slide-text12");
+    rilaText.classList.add("slide-text");
+    madaraText.classList.remove("slide-text12");
+    madaraText.classList.add("slide-text");
+    image5.classList.remove("hidden");
+    galleryImages[1].classList.remove("slide-left25");
+    galleryImages[1].classList.remove("slide-left28");
+    galleryImages[1].classList.remove("slide-left3");
+    galleryImages[1].classList.add("hidden");
+    galleryImages[2].classList.remove("slide-left25");
+    galleryImages[2].classList.add("slide-left2");
+    galleryImages[2].classList.add("slide-left3");
+    galleryImages[2].classList.add("hidden");
+    // galleryImages[3].classList.remove("slide-left20");
+    galleryImages[3].classList.add("hidden");
+    image5.classList.add("slide-left9");
+    // image5.style.visibility = "hidden";
+    currentImage = 4;
+  }
+  if (currentImage === -5) {
+    srebarnaText.classList.remove("slide-text12");
+    srebarnaText.classList.add("slide-text");
+    rilaText.classList.remove("slide-text12");
+    rilaText.classList.add("slide-text");
+    image5.classList.remove("hidden");
+    galleryImages[0].classList.remove("slide-left25");
+    galleryImages[0].classList.remove("slide-left28");
+    galleryImages[0].classList.remove("slide-left3");
+    galleryImages[0].classList.add("hidden");
+    galleryImages[1].classList.remove("slide-left25");
+    galleryImages[1].classList.add("slide-left2");
+    galleryImages[1].classList.add("slide-left3");
+    galleryImages[1].classList.add("hidden");
+    galleryImages[2].classList.remove("slide-left25");
+    galleryImages[2].classList.add("slide-left2");
+    galleryImages[2].classList.add("slide-left3");
+    galleryImages[2].classList.add("hidden");
+    galleryImages[3].classList.remove("slide-left20");
+    galleryImages[3].classList.add("hidden");
+    image5.classList.add("slide-left9");
+    // image5.style.visibility = "hidden";
+    currentImage = 3;
+  }
+  if (currentImage === -6) {
+    srebarnaText.classList.remove("slide-text17");
+    srebarnaText.classList.remove("slide-text");
+    srebarnaText.classList.add("hidden");
+    rilaText.classList.remove("slide-text17");
+    rilaText.classList.add("slide-text4");
+    madaraText.classList.remove("slide-text21");
+    prohodnaText.classList.remove("slide-text20");
+    lakesText.classList.remove("slide-text19");
+    belintashText.classList.remove("slide-text18");
+    throatText.classList.remove("slide-text17");
+    throatText.classList.remove("slide-text");
+    bridgesText.classList.remove("slide-text17");
+    bridgesText.classList.add("hidden");
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("slide-left7");
+    image6.classList.remove("slide-left32");
+    image7.classList.remove("slide-left23");
+    image8.classList.remove("slide-left23");
+    image8.classList.add("hidden");
+    galleryImages[0].classList = "";
+    galleryImages[0].classList.add("gallery-images");
+    galleryImages[0].classList.add("slide-left");
+    galleryImages[1].classList = "";
+    galleryImages[1].classList.add("gallery-images");
+    galleryImages[1].classList.add("slide-left2");
+    galleryImages[2].classList.remove("slide-left35");
+    galleryImages[2].classList.remove("hidden");
+    galleryImages[3].classList.remove("slide-left35");
+    galleryImages[3].classList.add("slide-left2");
+    // image5.style.visibility = "hidden";
+    currentImage = 2;
+  }
+  if (currentImage === -7) {
+    srebarnaText.classList.remove("slide-text17");
+    srebarnaText.classList.remove("slide-text");
+    srebarnaText.classList.add("hidden");
+    rilaText.classList.remove("slide-text17");
+    rilaText.classList.add("slide-text4");
+    madaraText.classList.remove("slide-text21");
+    prohodnaText.classList.remove("slide-text20");
+    lakesText.classList.remove("slide-text19");
+    belintashText.classList.remove("slide-text18");
+    throatText.classList.remove("slide-text17");
+    throatText.classList.remove("slide-text");
+    bridgesText.classList.remove("slide-text17");
+    bridgesText.classList.add("hidden");
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("slide-left7");
+    image6.classList.remove("slide-left32");
+    image7.classList.remove("slide-left23");
+    image7.classList.add("hidden");
+    image8.classList.remove("slide-left23");
+    image8.classList.add("hidden");
+    galleryImages[0].classList = "";
+    galleryImages[0].classList.add("gallery-images");
+    galleryImages[0].classList.add("slide-left");
+    galleryImages[1].classList = "";
+    galleryImages[1].classList.add("gallery-images");
+    galleryImages[1].classList.add("slide-left2");
+    galleryImages[2].classList.remove("slide-left35");
+    galleryImages[2].classList.remove("hidden");
+    galleryImages[3].classList.remove("slide-left35");
+    galleryImages[3].classList.add("slide-left2");
+    throatText.classList.add("hidden");
+    // image5.style.visibility = "hidden";
+    currentImage = 1;
+  }
   if (currentImage === 8) {
     currentImage = 0;
     [...galleryImages].forEach((image) => {
@@ -291,6 +405,7 @@ btnBefore.addEventListener("click", () => {
   if (currentImage === 5) {
     image6.classList = "";
     image6.classList.add("slide-left9");
+    image5.style.opacity = "0";
     belintashText.classList = "";
     belintashText.classList.add("belintash-text");
     belintashText.classList.add("slide-text11");
@@ -320,6 +435,11 @@ btnBefore.addEventListener("click", () => {
     rilaText.classList = "";
     rilaText.classList.add("rila-text");
     rilaText.classList.add("slide-text7");
+
+    sleep(1000).then(() => {
+      image5.style.opacity = "1";
+      image5.style = "";
+    });
   }
   if (currentImage === 6) {
     image7.classList = "";
@@ -436,6 +556,65 @@ btnAfter.addEventListener("click", function () {
     galleryImages[3].classList.add("slide-left20");
     currentImage = -2;
   }
+  if (currentImage === 5) {
+    console.log("hui");
+    image5.classList.remove("slide-left9");
+    image5.classList.add("hidden");
+    image6.classList.remove("slide-left9");
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("hidden");
+    // galleryImages[2].classList.remove("slide-left2");
+    // galleryImages[2].classList.remove("slide-left3");
+    galleryImages[2].classList.add("hidden");
+    // galleryImages[2].classList.add("slide-left25");
+    galleryImages[3].classList.add("hidden");
+    // galleryImages[3].classList.add("slide-left20");
+
+    currentImage = -3;
+  }
+  if (currentImage === 4) {
+    galleryImages[0].classList.remove("slide-lef31");
+    galleryImages[0].classList.remove("hidden");
+    galleryImages[0].style.opacity = "0";
+    galleryImages[1].classList.remove("slide-left2");
+    galleryImages[1].classList.remove("hidden");
+    galleryImages[1].classList.remove("hidden");
+    galleryImages[1].classList.add("slide-left28");
+    galleryImages[1].style.opacity = "0";
+    galleryImages[2].classList.remove("slide-left2");
+    galleryImages[2].classList.remove("slide-left3");
+    galleryImages[2].classList.remove("hidden");
+    galleryImages[2].classList.add("slide-left25");
+    galleryImages[2].style.opacity = "0";
+    srebarnaText.classList.remove("slide-text");
+    srebarnaText.classList.add("slide-text17");
+    srebarnaText.style.opacity = "0";
+    rilaText.classList.remove("slide-text4");
+    rilaText.classList.add("slide-text17");
+    rilaText.style.opacity = "0";
+    madaraText.classList.remove("slide-text");
+    madaraText.classList.add("slide-text12");
+    madaraText.style.opacity = "0";
+    currentImage = -4;
+  }
+
+  if (currentImage === 3) {
+    console.log("hui");
+    image5.classList.remove("slide-left9");
+    image5.classList.add("hidden");
+    image6.classList.remove("slide-left9");
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("hidden");
+    galleryImages[2].classList.remove("slide-left2");
+    galleryImages[2].classList.remove("slide-left3");
+    galleryImages[2].classList.add("hidden");
+    galleryImages[2].classList.add("slide-left25");
+    galleryImages[3].classList.add("hidden");
+    galleryImages[3].classList.add("slide-left20");
+    currentImage = -5;
+  }
   if (currentImage === -1) {
     galleryImages[2].classList = "";
     galleryImages[2].classList.add("gallery-images");
@@ -469,6 +648,14 @@ btnAfter.addEventListener("click", function () {
     throatText.classList = "";
     throatText.classList.add("throat-text");
     throatText.classList.add("slide-text16");
+    sleep(1000).then(() => {
+      galleryImages[0].opacity = "1";
+      galleryImages[1].opacity = "1";
+      galleryImages[2].opacity = "1";
+      srebarnaText.opacity = "1";
+      rilaText.opacity = "1";
+      madaraText.opacity = "1";
+    });
   }
   if (currentImage === -2) {
     galleryImages[1].classList = "";
@@ -504,6 +691,234 @@ btnAfter.addEventListener("click", function () {
     belintashText.classList = "";
     belintashText.classList.add("belintash-text");
     belintashText.classList.add("slide-text21");
+  }
+  if (currentImage === -3) {
+    galleryImages[0].classList = "";
+    galleryImages[0].classList.add("gallery-images");
+    galleryImages[0].classList.add("slide-left31");
+    srebarnaText.classList = "";
+    srebarnaText.classList.add("srebarna-text");
+    srebarnaText.classList.add("slide-text17");
+    image8.classList = "";
+    image8.classList.add("img5");
+    image8.classList.add("img8");
+    image8.classList.add("slide-left32");
+    bridgesText.classList = "";
+    bridgesText.classList.add("bridges-text");
+    bridgesText.classList.add("slide-text18");
+    image7.classList = "";
+    image7.classList.add("img5");
+    image7.classList.add("img7");
+    image7.classList.add("slide-left30");
+    throatText.classList = "";
+    throatText.classList.add("throat-text");
+    throatText.classList.add("slide-text19");
+    image6.classList = "";
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("slide-left27");
+    belintashText.classList = "";
+    belintashText.classList.add("belintash-text");
+    belintashText.classList.add("slide-text20");
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("slide-left22");
+    lakesText.classList = "";
+    lakesText.classList.add("lakes-text");
+    lakesText.classList.add("slide-text21");
+  }
+  if (currentImage === -4) {
+    image8.classList = "";
+    image8.classList.add("img5");
+    image8.classList.add("img8");
+    image8.classList.add("slide-left23");
+    bridgesText.classList = "";
+    bridgesText.classList.add("bridges-text");
+    bridgesText.classList.add("slide-text17");
+    image7.classList = "";
+    image7.classList.add("img5");
+    image7.classList.add("img7");
+    image7.classList.add("slide-left32");
+    throatText.classList = "";
+    throatText.classList.add("throat-text");
+    throatText.classList.add("slide-text18");
+    image6.classList = "";
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("slide-left30");
+    belintashText.classList = "";
+    belintashText.classList.add("belintash-text");
+    belintashText.classList.add("slide-text19");
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("slide-left27");
+    lakesText.classList = "";
+    lakesText.classList.add("lakes-text");
+    lakesText.classList.add("slide-text20");
+    galleryImages[3].classList = "";
+    galleryImages[3].classList.add("gallery-images");
+    galleryImages[3].classList.add("slide-left34");
+    prohodnaText.classList = "";
+    prohodnaText.classList.add("prohodna-text");
+    prohodnaText.classList.add("slide-text16");
+
+    sleep(1000).then(() => {
+      galleryImages[0].style = "";
+      galleryImages[1].style = "";
+      galleryImages[2].style = "";
+      srebarnaText.style = "";
+      rilaText.style = "";
+      madaraText.style = "";
+    });
+  }
+  if (currentImage === -5) {
+    image7.classList = "";
+    image7.classList.add("img5");
+    image7.classList.add("img7");
+    image7.classList.add("slide-left23");
+    throatText.classList = "";
+    throatText.classList.add("throat-text");
+    throatText.classList.add("slide-text17");
+    image6.classList = "";
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("slide-left32");
+    belintashText.classList = "";
+    belintashText.classList.add("belintash-text");
+    belintashText.classList.add("slide-text18");
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("slide-left30");
+    lakesText.classList = "";
+    lakesText.classList.add("lakes-text");
+    lakesText.classList.add("slide-text19");
+    galleryImages[3].classList = "";
+    galleryImages[3].classList.add("gallery-images");
+    galleryImages[3].classList.add("slide-left35");
+    prohodnaText.classList = "";
+    prohodnaText.classList.add("prohodna-text");
+    prohodnaText.classList.add("slide-text20");
+    galleryImages[2].classList = "";
+    galleryImages[2].classList.add("gallery-images");
+    galleryImages[2].classList.add("slide-left35");
+    madaraText.classList = "";
+    madaraText.classList.add("madara-text");
+    madaraText.classList.add("slide-text21");
+  }
+  if (currentImage === 2) {
+    currentImage = -6;
+  }
+  if (currentImage === -6) {
+    image6.classList = "";
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("slide-left23");
+    belintashText.classList = "";
+    belintashText.classList.add("belintash-text");
+    belintashText.classList.add("slide-text17");
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("slide-left32");
+    lakesText.classList = "";
+    lakesText.classList.add("lakes-text");
+    lakesText.classList.add("slide-text18");
+    galleryImages[3].classList = "";
+    galleryImages[3].classList.add("gallery-images");
+    galleryImages[3].classList.add("slide-left36");
+    prohodnaText.classList = "";
+    prohodnaText.classList.add("prohodna-text");
+    prohodnaText.classList.add("slide-text19");
+    galleryImages[2].classList = "";
+    galleryImages[2].classList.add("gallery-images");
+    galleryImages[2].classList.add("slide-left36");
+    madaraText.classList = "";
+    madaraText.classList.add("madara-text");
+    madaraText.classList.add("slide-text20");
+    galleryImages[1].classList = "";
+    galleryImages[1].classList.add("gallery-images");
+    galleryImages[1].classList.add("slide-left36");
+    rilaText.classList = "";
+    rilaText.classList.add("rila-text");
+    rilaText.classList.add("slide-text21");
+  }
+  if (currentImage === -7) {
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("slide-left23");
+    lakesText.classList = "";
+    lakesText.classList.add("lakes-text");
+    lakesText.classList.add("slide-text17");
+    galleryImages[3].classList = "";
+    galleryImages[3].classList.add("gallery-images");
+    galleryImages[3].classList.add("slide-left24");
+    prohodnaText.classList = "";
+    prohodnaText.classList.add("prohodna-text");
+    prohodnaText.classList.add("slide-text18");
+    galleryImages[2].classList = "";
+    galleryImages[2].classList.add("gallery-images");
+    galleryImages[2].classList.add("slide-left24");
+    madaraText.classList = "";
+    madaraText.classList.add("madara-text");
+    madaraText.classList.add("slide-text19");
+    galleryImages[1].classList = "";
+    galleryImages[1].classList.add("gallery-images");
+    galleryImages[1].classList.add("slide-left24");
+    rilaText.classList = "";
+    rilaText.classList.add("rila-text");
+    rilaText.classList.add("slide-text20");
+    galleryImages[0].classList = "";
+    galleryImages[0].classList.add("gallery-images");
+    galleryImages[0].classList.add("slide-left24");
+    srebarnaText.classList = "";
+    srebarnaText.classList.add("srebarna-text");
+    srebarnaText.classList.add("slide-text21");
+    currentImage = 1;
+    [...galleryImages].forEach((item) => {
+      item.classList = "";
+    });
+    [...galleryImages].forEach((item) => {
+      item.classList = "gallery-images";
+    });
+    srebarnaText.classList = "";
+    srebarnaText.classList.add("srebarna-text");
+    srebarnaText.classList.add("hidden");
+    rilaText.classList = "";
+    rilaText.classList.add("rila-text");
+    rilaText.classList.add("hidden");
+    madaraText.classList = "";
+    madaraText.classList.add("madara-text");
+    madaraText.classList.add("hidden");
+    prohodnaText.classList = "";
+    prohodnaText.classList.add("prohodna-text");
+    prohodnaText.classList.add("hidden");
+    lakesText.classList = "";
+    lakesText.classList.add("lakes-text");
+    lakesText.classList.add("hidden");
+    belintashText.classList = "";
+    belintashText.classList.add("belintash-text");
+    belintashText.classList.add("hidden");
+    throatText.classList = "";
+    throatText.classList.add("throat-text");
+    throatText.classList.add("hidden");
+    bridgesText.classList = "";
+    bridgesText.classList.add("bridges-text");
+    bridgesText.classList.add("hidden");
+
+    image5.classList = "";
+    image5.classList.add("img5");
+    image5.classList.add("hiddden");
+    image6.classList = "";
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("hidden");
+    image7.classList = "";
+    image7.classList.add("img5");
+    image7.classList.add("img7");
+    image7.classList.add("hidden");
+    image8.classList = "";
+    image8.classList.add("img5");
+    image8.classList.add("img8");
+    image8.classList.add("hidden");
   }
   if (currentImage == 0) {
     galleryImages[3].classList = "";
