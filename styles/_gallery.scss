@@ -25,7 +25,13 @@
     font-weight: 400;
   }
 }
-
+@media screen and (max-width: 1536px) {
+  .title {
+    .gallery-title {
+      font-size: 2.3rem;
+    }
+  }
+}
 .slider {
   // background-color: darkkhaki;
   position: absolute;
@@ -79,6 +85,14 @@
   top: 307.5%;
   left: 96.8%;
 }
+@media screen and (max-width: 1536px) {
+  .btn-before,
+  .btn-after {
+    width: 48px;
+    height: 48px;
+  }
+}
+
 .srebarna-text {
   position: absolute;
   top: 319.5%;
@@ -103,6 +117,7 @@
     padding-bottom: 1%;
   }
   .srebarna-button {
+    position: absolute;
     overflow: hidden;
     width: 70%;
     height: 22%;
@@ -116,7 +131,21 @@
     cursor: pointer;
   }
 }
-
+@media screen and (max-width: 1536px) {
+  .srebarna-text {
+    max-width: 14%;
+    .srebarna-title {
+      font-size: 1.8rem;
+    }
+    .srebarna-content {
+      font-size: 0.9rem;
+    }
+    .srebarna-button {
+      font-size: 1.2rem;
+      bottom: 1%;
+    }
+  }
+}
 .rila-text {
   position: absolute;
   top: 319.5%;
@@ -153,7 +182,21 @@
     cursor: pointer;
   }
 }
-
+@media screen and (max-width: 1536px) {
+  .rila-text {
+    max-width: 15%;
+    .rila-title {
+      font-size: 1.8rem;
+    }
+    .rila-content {
+      font-size: 0.9rem;
+    }
+    .rila-button {
+      font-size: 1.2rem;
+      bottom: 8%;
+    }
+  }
+}
 .madara-text {
   position: absolute;
   top: 317.2%;
@@ -190,7 +233,20 @@
     cursor: pointer;
   }
 }
-
+@media screen and (max-width: 1536px) {
+  .madara-text {
+    .madara-title {
+      font-size: 1.8rem;
+    }
+    .madara-content {
+      font-size: 0.9rem;
+    }
+    .madara-button {
+      font-size: 1.2rem;
+      bottom: 8%;
+    }
+  }
+}
 .prohodna-text {
   position: absolute;
   top: 317%;
@@ -214,6 +270,7 @@
     font-family: "Cormorant Garamond";
   }
   .prohodna-button {
+    position: absolute;
     overflow: hidden;
     width: 70%;
     height: 21%;
@@ -225,6 +282,21 @@
     color: #ffffff;
     font-family: "Cormorant Garamond";
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .prohodna-text {
+    max-width: 14%;
+    .prohodna-title {
+      font-size: 1.8rem;
+    }
+    .prohodna-content {
+      font-size: 0.9rem;
+    }
+    .prohodna-button {
+      font-size: 1.2rem;
+      bottom: 3%;
+    }
   }
 }
 .lakes-text {
@@ -251,6 +323,7 @@
     font-family: "Cormorant Garamond";
   }
   .lakes-button {
+    position: absolute;
     overflow: hidden;
     width: 70%;
     height: 21%;
@@ -262,6 +335,21 @@
     color: #ffffff;
     font-family: "Cormorant Garamond";
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .lakes-text {
+    max-width: 14%;
+    .lakes-title {
+      font-size: 1.8rem;
+    }
+    .lakes-content {
+      font-size: 0.9rem;
+    }
+    .lakes-button {
+      font-size: 1.2rem;
+      bottom: 3%;
+    }
   }
 }
 .belintash-text {
@@ -288,6 +376,7 @@
     font-family: "Cormorant Garamond";
   }
   .belintash-button {
+    position: absolute;
     overflow: hidden;
     width: 70%;
     height: 21%;
@@ -299,6 +388,21 @@
     color: #ffffff;
     font-family: "Cormorant Garamond";
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .belintash-text {
+    max-width: 13%;
+    .belintash-title {
+      font-size: 1.8rem;
+    }
+    .belintash-content {
+      font-size: 0.9rem;
+    }
+    .belintash-button {
+      font-size: 1.2rem;
+      bottom: 3%;
+    }
   }
 }
 .throat-text {
@@ -325,6 +429,7 @@
     font-family: "Cormorant Garamond";
   }
   .throat-button {
+    position: absolute;
     overflow: hidden;
     width: 70%;
     height: 21%;
@@ -336,6 +441,21 @@
     color: #ffffff;
     font-family: "Cormorant Garamond";
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .throat-text {
+    max-width: 13%;
+    .throat-title {
+      font-size: 1.8rem;
+    }
+    .throat-content {
+      font-size: 0.9rem;
+    }
+    .throat-button {
+      font-size: 1.2rem;
+      bottom: 3%;
+    }
   }
 }
 .bridges-text {
@@ -362,6 +482,7 @@
     font-family: "Cormorant Garamond";
   }
   .bridges-button {
+    position: absolute;
     overflow: hidden;
     width: 68%;
     height: 19%;
@@ -373,6 +494,21 @@
     color: #ffffff;
     font-family: "Cormorant Garamond";
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .bridges-text {
+    max-width: 13%;
+    .bridges-title {
+      font-size: 1.8rem;
+    }
+    .bridges-content {
+      font-size: 0.9rem;
+    }
+    .bridges-button {
+      font-size: 1.2rem;
+      bottom: 3%;
+    }
   }
 }
 .img5 {
