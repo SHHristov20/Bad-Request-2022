@@ -3250,7 +3250,7 @@ a i {
   font-family: "Poppins", sans-serif;
   font-weight: 400 !important;
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 42%;
   -webkit-animation: fade ease 1s;
           animation: fade ease 1s;
@@ -3273,7 +3273,7 @@ a i {
     transition: all 0.5s ease-in;
     -webkit-filter: blur(0px);
             filter: blur(0px);
-    top: 40%;
+    top: 30%;
   }
 }
 
@@ -3290,7 +3290,7 @@ a i {
     transition: all 0.5s ease-in;
     -webkit-filter: blur(0px);
             filter: blur(0px);
-    top: 40%;
+    top: 30%;
   }
 }
 
@@ -3322,7 +3322,7 @@ a i {
   z-index: 1000;
   position: absolute;
   left: 45.7%;
-  top: 58%;
+  top: 47%;
 }
 
 @-webkit-keyframes btn {
@@ -3338,7 +3338,7 @@ a i {
     transition: all 0.5s ease-in;
     -webkit-filter: blur(0px);
             filter: blur(0px);
-    bottom: -20%;
+    bottom: 20%;
   }
 }
 
@@ -3355,7 +3355,7 @@ a i {
     transition: all 0.5s ease-in;
     -webkit-filter: blur(0px);
             filter: blur(0px);
-    bottom: -20%;
+    bottom: 20%;
   }
 }
 
@@ -3406,5 +3406,270 @@ a i {
     width: 23%;
     left: -5%;
   }
+}
+
+.history {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 8.2%;
+  top: 84%;
+  left: 21.2%;
+  -webkit-animation: hr ease 1s;
+          animation: hr ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes hr {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 97%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 84%;
+  }
+}
+
+@keyframes hr {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 97%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 84%;
+  }
+}
+
+.geography {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 8.2%;
+  top: 84%;
+  left: 41%;
+  -webkit-animation: hr ease 1s;
+          animation: hr ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes hr {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 97%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 84%;
+  }
+}
+
+.culture {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 8.2%;
+  top: 84%;
+  left: 61%;
+  -webkit-animation: hr ease 1s;
+          animation: hr ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes hr {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 97%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 84%;
+  }
+}
+
+.bonus-information {
+  max-width: 10%;
+  word-wrap: break-word;
+  -webkit-animation: bonus-information ease 1s;
+          animation: bonus-information ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  color: black;
+  left: 26%;
+  top: 65%;
+  position: absolute;
+  width: 9.3vw;
+}
+
+@-webkit-keyframes bonus-information {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 90%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 75%;
+  }
+}
+
+@keyframes bonus-information {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 90%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 75%;
+  }
+}
+
+.bonus-information h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_1 {
+  max-width: 10%;
+  word-wrap: break-word;
+  -webkit-animation: bonus-information ease 1s;
+          animation: bonus-information ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  color: black;
+  left: 46%;
+  top: 65%;
+  position: absolute;
+  width: 8vw;
+}
+
+@keyframes bonus-information {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 90%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 75%;
+  }
+}
+
+.bonus-information_1 h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_1 p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_2 {
+  max-width: 10%;
+  word-wrap: break-word;
+  -webkit-animation: bonus-information ease 1s;
+          animation: bonus-information ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  color: black;
+  left: 66%;
+  top: 65%;
+  position: absolute;
+  width: 10vw;
+}
+
+@keyframes bonus-information {
+  0% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    top: 90%;
+  }
+  100% {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    top: 75%;
+  }
+}
+
+.bonus-information_2 h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
+}
+
+.bonus-information_2 p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #343030;
 }
 /*# sourceMappingURL=style.css.map */

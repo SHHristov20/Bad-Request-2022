@@ -16,7 +16,7 @@
     100% {
       @include transition-ease;
       filter: blur(0px);
-      top: 40%;
+      top: 30%;
     }
   }
 }
@@ -54,7 +54,43 @@
     100% {
       @include transition-ease;
       filter: blur(0px);
-      bottom: -20%;
+      bottom: 20%;
+    }
+  }
+}
+@mixin bonus-information {
+  animation: bonus-information ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes bonus-information {
+    0% {
+      @include transition-ease;
+      filter: blur(5px);
+      top: 90%;
+    }
+    100% {
+      @include transition-ease;
+      filter: blur(0px);
+      top: 75%;
+    }
+  }
+}
+@mixin hrAnimation {
+  animation: hr ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes hr {
+    0% {
+      @include transition-ease;
+      filter: blur(5px);
+      top: 97%;
+    }
+    100% {
+      @include transition-ease;
+      filter: blur(0px);
+      top: 84%;
     }
   }
 }

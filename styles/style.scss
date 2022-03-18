@@ -50,7 +50,7 @@ a {
     font-family: "Poppins", sans-serif;
     font-weight: 400 !important;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 42%;
     @include landingAnimation;
     h1 {
@@ -76,7 +76,7 @@ a {
   z-index: 1000;
   position: absolute;
   left: 45.7%;
-  top: 58%;
+  top: 47%;
 }
 .btn:hover {
   background-position: 100% 0;
@@ -127,54 +127,87 @@ a {
     left: -5%;
   }
 }
-// .bonus-information {
-//   color: black;
-//   left: 26%;
-//   top: 79.5%;
-//   position: absolute;
-//   width: 9.3vw;
-//   h1 {
-//     font-size: 1.5rem;
-//     font-family: "Poppins", sans-serif;
-//     color: #343030;
-//   }
-//   p {
-//     font-size: 1rem;
-//     font-family: "Poppins", sans-serif;
-//     color: #343030;
-//   }
-// }
-// .bonus-information_1 {
-//   color: black;
-//   left: 46%;
-//   top: 79.5%;
-//   position: absolute;
-//   width: 8vw;
-//   h1 {
-//     font-size: 1.5rem;
-//     font-family: "Poppins", sans-serif;
-//     color: #343030;
-//   }
-//   p {
-//     font-size: 1rem;
-//     font-family: "Poppins", sans-serif;
-//     color: #343030;
-//   }
-// }
-// .bonus-information_2 {
-//   color: black;
-//   left: 66%;
-//   top: 79.5%;
-//   position: absolute;
-//   width: 10vw;
-//   h1 {
-//     font-size: 1.5rem;
-//     font-family: "Poppins", sans-serif;
-//     color: #343030;
-//   }
-//   p {
-//     font-size: 1rem;
-//     font-family: "Poppins", sans-serif;
-//     color: #343030;
-//   }
-// }
+.history {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 8.2%;
+  top: 84%;
+  left: 21.2%;
+  @include hrAnimation;
+}
+.geography {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 8.2%;
+  top: 84%;
+  left: 41%;
+  @include hrAnimation;
+}
+.culture {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 8.2%;
+  top: 84%;
+  left: 61%;
+  @include hrAnimation;
+}
+.bonus-information {
+  max-width: 10%;
+  word-wrap: break-word;
+  @include bonus-information;
+  color: black;
+  left: 26%;
+  top: 65%;
+  position: absolute;
+  width: 9.3vw;
+  h1 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #343030;
+  }
+  p {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #343030;
+  }
+}
+.bonus-information_1 {
+  max-width: 10%;
+  word-wrap: break-word;
+  @include bonus-information;
+  color: black;
+  left: 46%;
+  top: 65%;
+  position: absolute;
+  width: 8vw;
+  h1 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #343030;
+  }
+  p {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #343030;
+  }
+}
+.bonus-information_2 {
+  max-width: 10%;
+  word-wrap: break-word;
+  @include bonus-information;
+  color: black;
+  left: 66%;
+  top: 65%;
+  position: absolute;
+  width: 10vw;
+  h1 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #343030;
+  }
+  p {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #343030;
+  }
+}
