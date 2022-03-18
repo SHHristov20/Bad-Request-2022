@@ -195,6 +195,45 @@
   word-break: normal;
 }
 
+@media screen and (max-width: 1536px) {
+  .summary {
+    overflow: hidden;
+  }
+  .summary .image-1 img {
+    width: 80%;
+  }
+  .summary .image-2 img {
+    width: 80%;
+  }
+  .summary .summary-header {
+    font-size: 1.9rem;
+  }
+  .summary .magnificent-history .magnificent-history-header {
+    font-size: 1.3rem;
+  }
+  .summary .magnificent-history .magnificent-history-text {
+    font-size: 1rem;
+  }
+  .summary .exceptional-traditions .exceptional-traditions-header {
+    font-size: 1.3rem;
+  }
+  .summary .exceptional-traditions .exceptional-traditions-text {
+    font-size: 1rem;
+  }
+  .summary .intertwining-cultures .intertwining-cultures-header {
+    font-size: 1.3rem;
+  }
+  .summary .intertwining-cultures .intertwining-cultures-text {
+    font-size: 0.9rem;
+  }
+  .summary .beginning-of-bulgaria .beginning-of-bulgaria-header {
+    font-size: 1.3rem;
+  }
+  .summary .beginning-of-bulgaria .beginning-of-bulgaria-text {
+    font-size: 1rem;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -378,6 +417,45 @@
   max-width: 17%;
   word-wrap: break-word;
   word-break: normal;
+}
+
+@media screen and (max-width: 1536px) {
+  .summary {
+    overflow: hidden;
+  }
+  .summary .image-1 img {
+    width: 80%;
+  }
+  .summary .image-2 img {
+    width: 80%;
+  }
+  .summary .summary-header {
+    font-size: 1.9rem;
+  }
+  .summary .magnificent-history .magnificent-history-header {
+    font-size: 1.3rem;
+  }
+  .summary .magnificent-history .magnificent-history-text {
+    font-size: 1rem;
+  }
+  .summary .exceptional-traditions .exceptional-traditions-header {
+    font-size: 1.3rem;
+  }
+  .summary .exceptional-traditions .exceptional-traditions-text {
+    font-size: 1rem;
+  }
+  .summary .intertwining-cultures .intertwining-cultures-header {
+    font-size: 1.3rem;
+  }
+  .summary .intertwining-cultures .intertwining-cultures-text {
+    font-size: 0.9rem;
+  }
+  .summary .beginning-of-bulgaria .beginning-of-bulgaria-header {
+    font-size: 1.3rem;
+  }
+  .summary .beginning-of-bulgaria .beginning-of-bulgaria-text {
+    font-size: 1rem;
+  }
 }
 
 .gallery {

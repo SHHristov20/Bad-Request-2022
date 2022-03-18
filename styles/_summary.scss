@@ -160,3 +160,53 @@
     }
   }
 }
+@media screen and (max-width: 1536px) {
+  .summary {
+    overflow: hidden;
+    .image-1 {
+      img {
+        width: 80%;
+      }
+    }
+    .image-2 {
+      img {
+        width: 80%;
+      }
+    }
+    .summary-header {
+      font-size: 1.9rem;
+    }
+    .magnificent-history {
+      .magnificent-history-header {
+        font-size: 1.3rem;
+      }
+      .magnificent-history-text {
+        font-size: 1rem;
+      }
+    }
+    .exceptional-traditions {
+      .exceptional-traditions-header {
+        font-size: 1.3rem;
+      }
+      .exceptional-traditions-text {
+        font-size: 1rem;
+      }
+    }
+    .intertwining-cultures {
+      .intertwining-cultures-header {
+        font-size: 1.3rem;
+      }
+      .intertwining-cultures-text {
+        font-size: 0.9rem;
+      }
+    }
+    .beginning-of-bulgaria {
+      .beginning-of-bulgaria-header {
+        font-size: 1.3rem;
+      }
+      .beginning-of-bulgaria-text {
+        font-size: 1rem;
+      }
+    }
+  }
+}
