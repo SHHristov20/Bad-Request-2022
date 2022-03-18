@@ -16,6 +16,10 @@ const image8 = document.querySelector(".img8");
 console.log(galleryImages);
 console.log(btnBefore);
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 let currentImage = 0;
 btnBefore.addEventListener("click", () => {
   console.log(currentImage);
@@ -26,6 +30,38 @@ btnBefore.addEventListener("click", () => {
   if (currentImage === -1) {
     currentImage = 7;
     console.log(currentImage);
+  }
+  if (currentImage === -2) {
+    prohodnaText.classList.remove("slide-text12");
+    prohodnaText.classList.add("slide-text");
+    lakesText.classList.remove("hidden");
+    lakesText.classList.add("slide-text11");
+    belintashText.classList.remove("hidden");
+    belintashText.classList.add("slide-text11");
+    image5.classList.remove("hidden");
+    image5.classList.add("slide-left9");
+    image6.classList = "";
+    image6.classList.add("hidden");
+    image6.classList.add("slide-left9");
+    galleryImages[3].classList.remove("slide-left20");
+    galleryImages[3].classList.add("hidden");
+    currentImage = 6;
+  }
+  if (currentImage === -3) {
+    madaraText.classList.remove("slide-text12");
+    madaraText.classList.add("slide-text");
+    prohodnaText.classList.remove("slide-text12");
+    prohodnaText.classList.add("slide-text");
+    image5.classList.remove("hidden");
+    galleryImages[2].classList.remove("slide-left25");
+    galleryImages[2].classList.add("slide-left2");
+    galleryImages[2].classList.add("slide-left3");
+    galleryImages[2].classList.add("hidden");
+    galleryImages[3].classList.remove("slide-left20");
+    galleryImages[3].classList.add("hidden");
+    image5.classList.add("slide-left9");
+    // image5.style.visibility = "hidden";
+    currentImage = 5;
   }
   if (currentImage === 8) {
     currentImage = 0;
@@ -363,11 +399,111 @@ btnBefore.addEventListener("click", () => {
 btnAfter.addEventListener("click", function () {
   console.log(currentImage);
 
-  if (currentImage === 8 || currentImage === -1) {
+  if (currentImage === 8) {
     currentImage = 0;
   }
+  if (currentImage === 7) {
+    console.log(currentImage);
+    lakesText.classList.add("hidden");
+    lakesText.classList.remove("slide-text11");
+    prohodnaText.classList.add("slide-text12");
+    prohodnaText.classList.remove("slide-text");
+    belintashText.classList.add("hidden");
+    belintashText.classList.remove("slide-text11");
+    image5.classList.remove("slide-left9");
+    image5.classList.add("hidden");
+    image6.classList.remove("slide-left9");
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("hidden");
+    galleryImages[3].classList.remove("hidden");
+    galleryImages[3].classList.add("slide-left20");
+    currentImage = -1;
+  }
+  if (currentImage === 6) {
+    console.log("hui");
+    madaraText.classList.remove("slide-text");
+    madaraText.classList.add("slide-text12");
+    prohodnaText.classList.remove("slide-text");
+    prohodnaText.classList.add("slide-text12");
+    image5.classList.remove("slide-left9");
+    image5.classList.add("hidden");
+    galleryImages[2].classList.remove("slide-left2");
+    galleryImages[2].classList.remove("slide-left3");
+    galleryImages[2].classList.remove("hidden");
+    galleryImages[2].classList.add("slide-left25");
+    galleryImages[3].classList.remove("hidden");
+    galleryImages[3].classList.add("slide-left20");
+    currentImage = -2;
+  }
   if (currentImage === -1) {
-    galleryImages[3];
+    galleryImages[2].classList = "";
+    galleryImages[2].classList.add("gallery-images");
+    galleryImages[2].classList.add("slide-left25");
+    madaraText.classList = "";
+    madaraText.classList.add("madara-text");
+    madaraText.classList.add("slide-text12");
+    galleryImages[1].classList = "";
+    galleryImages[1].classList.add("gallery-images");
+    galleryImages[1].classList.add("slide-left26");
+    rilaText.classList = "";
+    rilaText.classList.add("rila-text");
+    rilaText.classList.add("slide-text13");
+    galleryImages[0].classList = "";
+    galleryImages[0].classList.add("gallery-images");
+    galleryImages[0].classList.add("slide-left26");
+    srebarnaText.classList = "";
+    srebarnaText.classList.add("srebarna-text");
+    srebarnaText.classList.add("slide-text14");
+    image8.classList = "";
+    image8.classList.add("img5");
+    image8.classList.add("img8");
+    image8.classList.add("slide-left27");
+    bridgesText.classList = "";
+    bridgesText.classList.add("bridges-text");
+    bridgesText.classList.add("slide-text15");
+    image7.classList = "";
+    image7.classList.add("img5");
+    image7.classList.add("img7");
+    image7.classList.add("slide-left22");
+    throatText.classList = "";
+    throatText.classList.add("throat-text");
+    throatText.classList.add("slide-text16");
+  }
+  if (currentImage === -2) {
+    galleryImages[1].classList = "";
+    galleryImages[1].classList.add("gallery-images");
+    galleryImages[1].classList.add("slide-left28");
+    rilaText.classList = "";
+    rilaText.classList.add("rila-text");
+    rilaText.classList.add("slide-text17");
+    galleryImages[0].classList = "";
+    galleryImages[0].classList.add("gallery-images");
+    galleryImages[0].classList.add("slide-left29");
+    srebarnaText.classList = "";
+    srebarnaText.classList.add("srebarna-text");
+    srebarnaText.classList.add("slide-text18");
+    image8.classList = "";
+    image8.classList.add("img5");
+    image8.classList.add("img8");
+    image8.classList.add("slide-left30");
+    bridgesText.classList = "";
+    bridgesText.classList.add("bridges-text");
+    bridgesText.classList.add("slide-text19");
+    image7.classList = "";
+    image7.classList.add("img5");
+    image7.classList.add("img7");
+    image7.classList.add("slide-left27");
+    throatText.classList = "";
+    throatText.classList.add("throat-text");
+    throatText.classList.add("slide-text20");
+    image6.classList = "";
+    image6.classList.add("img5");
+    image6.classList.add("img6");
+    image6.classList.add("slide-left22");
+    belintashText.classList = "";
+    belintashText.classList.add("belintash-text");
+    belintashText.classList.add("slide-text21");
   }
   if (currentImage == 0) {
     galleryImages[3].classList = "";
@@ -435,4 +571,5 @@ btnAfter.addEventListener("click", function () {
     srebarnaText.classList.add("slide-text21");
   }
   currentImage--;
+  console.log(currentImage);
 });
