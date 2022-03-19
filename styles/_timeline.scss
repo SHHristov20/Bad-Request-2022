@@ -1,3 +1,4 @@
+@import "animations";
 .timeline{
     position: absolute;
     top: 400%;
@@ -10,4 +11,36 @@
     position: absolute;
     top: 380%;
     left: 34%;
+}
+.active-content {
+    animation: content 1s ease-in-out;
+    animation-fill-mode: forwards;
+    @keyframes content {
+        0% {
+            opacity: 0;
+            transform: translateX(50%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+
+    @include transition-ease;
+}
+.active-content1 {
+    animation: content1 1s ease-in-out;
+    animation-fill-mode: forwards;
+    @keyframes content1 {
+        0% {
+            opacity: 0;
+            transform: translateX(-50%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+
+    @include transition-ease;
 }
