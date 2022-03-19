@@ -404,6 +404,7 @@ btnBefore.addEventListener("click", () => {
   }
   if (currentImage === 5) {
     image6.classList = "";
+    image6.classList.add("img5");
     image6.classList.add("slide-left9");
     image5.style.opacity = "0";
     belintashText.classList = "";
