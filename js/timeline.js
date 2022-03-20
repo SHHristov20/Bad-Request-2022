@@ -23,18 +23,18 @@ console.log(dots);
 console.log(lines);
 console.log(rects);
 
-[...lines].forEach(line => {
-    line.style.display = "none";
-});
-[...rects].forEach(rect => {
-    rect.style.display = "none";
-});
-[...paths].forEach(path => {
-    path.style.display = "none";
-});
-[...texts].forEach(text => {
-    text.style.display = "none";
-});
+// [...lines].forEach(line => {
+//     line.style.display = "none";
+// });
+// [...rects].forEach(rect => {
+//     rect.style.display = "none";
+// });
+// [...paths].forEach(path => {
+//     path.style.display = "none";
+// });
+// [...texts].forEach(text => {
+//     text.style.display = "none";
+// });
 [...dots].forEach((dot, index) => {
     dot.addEventListener("click", () => {
         if (index === 0) {
