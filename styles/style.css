@@ -41,7 +41,7 @@ html {
 }
 
 .waves {
-  background-image: url("../img/svg/waves.svg");
+  background-image: url("../img/svg/Waves.svg");
   position: absolute;
   top: 100%;
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@ html {
 }
 
 .waves {
-  background-image: url("../img/svg/waves.svg");
+  background-image: url("../img/svg/Waves.svg");
   position: absolute;
   top: 100%;
   background-repeat: no-repeat;
@@ -471,7 +471,7 @@ html {
 }
 
 .gallery {
-  background-image: url("../img/svg/brownWaveDownSide.svg");
+  background-image: url("../img/svg/brownWaveDownside.svg");
   position: absolute;
   top: 239%;
   background-repeat: no-repeat;
@@ -4334,7 +4334,6 @@ a i {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/svg/Landing.svg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;

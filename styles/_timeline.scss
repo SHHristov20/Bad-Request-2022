@@ -1,9 +1,11 @@
 @import "animations";
+//Timeline positioning and styles
 .timeline{
     position: absolute;
     top: 400%;
     left: 21.5%;
 }
+//Timeline title
 .timeline-title{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -12,6 +14,7 @@
     top: 380%;
     left: 34%;
 }
+//Active timeline
 .active-content {
     animation: content 1s ease-in-out;
     animation-fill-mode: forwards;
@@ -44,6 +47,7 @@
 
     @include transition-ease;
 }
+//Active image
 .image-active {
     animation: imageAnimation 1s ease-in-out;
     animation-fill-mode: forwards;
@@ -100,6 +104,7 @@
         }
     }
 }
+//Images positioning
 .timeline-img {
     position: absolute;
     top: 400.8%;
@@ -463,6 +468,7 @@ rect {
     // text-align: justify;
     // display: none;
 }
+//Responsivness
 @media screen and (max-width: 1536px) {
     .timeline-title {
         top: 380%;

@@ -1,5 +1,6 @@
 @import "animations";
 
+// Footer positioning and styles
 .footer {
     overflow: hidden;
     position: absolute;
@@ -155,6 +156,7 @@
         left: 73%;
     }
 }
+//Responsivness
 @media screen and (max-width: 1536px) {
     .footer {
         .header {

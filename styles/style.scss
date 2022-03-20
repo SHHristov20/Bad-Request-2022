@@ -4,6 +4,7 @@
 @import "gallery";
 @import "timeline";
 @import "footer";
+//Nav positioning and styles
 nav {
   position: fixed;
   background-color: transparent;
@@ -27,6 +28,7 @@ nav {
     font-size: 1.5rem;
     text-decoration: none;
   }
+  //Responsivness
   @media screen and (max-width: 1536px) {
     li {
       font-size: 1.2rem;
@@ -53,12 +55,13 @@ a {
     color: black;
   }
 }
+//Navbar animation
 .landing {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/svg/Landing.svg");
+  // background-image: url("../img/svg/Landing.svg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -76,6 +79,7 @@ a {
     }
   }
 }
+//Button styles
 .btn {
   @include btnAnimation;
   width: 8%;
@@ -109,6 +113,7 @@ a {
   );
   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
+//Animated blobs
 .orangeBlob {
   z-index: -1;
   left: 35%;
@@ -120,6 +125,7 @@ a {
   position: absolute;
   overflow-y: hidden;
 }
+//Responsivness
 @media screen and (max-width: 1536px) {
   .introduction {
     h1 {
@@ -144,6 +150,7 @@ a {
     left: -5%;
   }
 }
+//bonus information
 .history {
   position: absolute;
   transform: rotate(90deg);
@@ -188,6 +195,7 @@ a {
     color: #343030;
   }
 }
+//Responsivness
 @media screen and (max-width: 1536px) {
   .bonus-information {
     p {
@@ -218,6 +226,7 @@ a {
     color: #343030;
   }
 }
+//Responsivness
 @media screen and (max-width: 1536px) {
   .bonus-information_1 {
     p {
@@ -248,6 +257,7 @@ a {
     color: #343030;
   }
 }
+//Responsivness
 @media screen and (max-width: 1536px) {
   .bonus-information_2 {
     p {

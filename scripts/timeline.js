@@ -1,4 +1,4 @@
-const dots = document.querySelectorAll("circle");
+const dots = document.querySelectorAll("circle"); //Elements selection
 const lines = document.querySelectorAll("line");
 const rects = document.querySelectorAll("rect");    
 const paths = document.querySelectorAll(".timeline-path");
@@ -18,12 +18,8 @@ const image12 = document.querySelector(".timeline-img11");
 const image13 = document.querySelector(".timeline-img12");
 const image14 = document.querySelector(".timeline-img13");
 const image15 = document.querySelector(".timeline-img14");
-console.log(image1);
-console.log(dots);
-console.log(lines);
-console.log(rects);
 
-[...lines].forEach(line => {
+[...lines].forEach(line => { //Hiding the elements from the timeline
     line.style.display = "none";
 });
 [...rects].forEach(rect => {
@@ -36,7 +32,7 @@ console.log(rects);
     text.style.display = "none";
 });
 [...dots].forEach((dot, index) => {
-    dot.addEventListener("click", () => {
+    dot.addEventListener("click", () => { //Dot click handler
         if (index === 0) {
 
             paths[index].style.display = "block";
@@ -205,14 +201,13 @@ console.log(rects);
             rects[15].classList.add("active-content");
             lines[7].classList.add("active-content");
         }
-        console.log("click");
     });
-    dot.addEventListener("mouseover", () => {
+    dot.addEventListener("mouseover", () => { //Dot hover handler
         dot.style.cursor = "pointer";
     });
 
 });
-paths[0].addEventListener("mouseover", () => {
+paths[0].addEventListener("mouseover", () => { //Square hover handler
     image1.style.display = "block";
     image1.classList.add("image-active");
 });
@@ -222,9 +217,7 @@ paths[0].addEventListener("mouseout", () => {
         image1.classList.remove("image-active-reverse");
         image1.classList.remove("image-active");
         image1.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[8].addEventListener("mouseover", () => {
     image2.style.display = "block";
@@ -236,9 +229,7 @@ paths[8].addEventListener("mouseout", () => {
         image2.classList.remove("image-active1-reverse");
         image2.classList.remove("image-active1");
         image2.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[1].addEventListener("mouseover", () => {
     image3.style.display = "block";
@@ -250,9 +241,7 @@ paths[1].addEventListener("mouseout", () => {
         image3.classList.remove("image-active-reverse");
         image3.classList.remove("image-active");
         image3.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[9].addEventListener("mouseover", () => {
     image4.style.display = "block";
@@ -264,9 +253,7 @@ paths[9].addEventListener("mouseout", () => {
         image4.classList.remove("image-active1-reverse");
         image4.classList.remove("image-active1");
         image4.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[2].addEventListener("mouseover", () => {
     image51.style.display = "block";
@@ -278,9 +265,7 @@ paths[2].addEventListener("mouseout", () => {
         image51.classList.remove("image-active-reverse");
         image51.classList.remove("image-active");
         image51.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[10].addEventListener("mouseover", () => {
     image61.style.display = "block";
@@ -292,9 +277,7 @@ paths[10].addEventListener("mouseout", () => {
         image61.classList.remove("image-active1-reverse");
         image61.classList.remove("image-active1");
         image61.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[3].addEventListener("mouseover", () => {
     image71.style.display = "block";
@@ -306,9 +289,7 @@ paths[3].addEventListener("mouseout", () => {
         image71.classList.remove("image-active-reverse");
         image71.classList.remove("image-active");
         image71.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[14].addEventListener("mouseover", () => {
     image81.style.display = "block";
@@ -320,9 +301,7 @@ paths[14].addEventListener("mouseout", () => {
         image81.classList.remove("image-active1-reverse");
         image81.classList.remove("image-active1");
         image81.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[4].addEventListener("mouseover", () => {
     image9.style.display = "block";
@@ -334,9 +313,7 @@ paths[4].addEventListener("mouseout", () => {
         image9.classList.remove("image-active-reverse");
         image9.classList.remove("image-active");
         image9.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[11].addEventListener("mouseover", () => {
     image10.style.display = "block";
@@ -348,9 +325,7 @@ paths[11].addEventListener("mouseout", () => {
         image10.classList.remove("image-active1-reverse");
         image10.classList.remove("image-active1");
         image10.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[5].addEventListener("mouseover", () => {
     image11.style.display = "block";
@@ -362,9 +337,7 @@ paths[5].addEventListener("mouseout", () => {
         image11.classList.remove("image-active-reverse");
         image11.classList.remove("image-active");
         image11.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[12].addEventListener("mouseover", () => {
     image12.style.display = "block";
@@ -376,9 +349,7 @@ paths[12].addEventListener("mouseout", () => {
         image12.classList.remove("image-active1-reverse");
         image12.classList.remove("image-active1");
         image12.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[6].addEventListener("mouseover", () => {
     image13.style.display = "block";
@@ -390,9 +361,7 @@ paths[6].addEventListener("mouseout", () => {
         image13.classList.remove("image-active-reverse");
         image13.classList.remove("image-active");
         image13.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[13].addEventListener("mouseover", () => {
     image14.style.display = "block";
@@ -404,9 +373,7 @@ paths[13].addEventListener("mouseout", () => {
         image14.classList.remove("image-active1-reverse");
         image14.classList.remove("image-active1");
         image14.style.display = "none";
-
     });
-    console.log("mouseout");
 });
 paths[7].addEventListener("mouseover", () => {
     image15.style.display = "block";
@@ -418,7 +385,5 @@ paths[7].addEventListener("mouseout", () => {
         image15.classList.remove("image-active-reverse");
         image15.classList.remove("image-active");
         image15.style.display = "none";
-
     });
-    console.log("mouseout");
 });

@@ -1,6 +1,7 @@
 @import "config";
 @import "animations";
 
+//The hidden class for the revealing animations
 .section--hidden {
   @include transition-ease;
   opacity: 0;
@@ -9,8 +10,9 @@
 .section {
   @include transition-ease;
 }
+//Waves svg
 .waves {
-  background-image: url("../img/svg/waves.svg");
+  background-image: url("../img/svg/Waves.svg");
   position: absolute;
   top: 100%;
   background-repeat: no-repeat;
@@ -19,6 +21,7 @@
   height: 15%;
 }
 
+//Summary section styles
 .summary {
   position: absolute;
   background-image: url("../img/svg/Summary.svg");
@@ -35,6 +38,7 @@
     top: 20%;
     left: 41.4%;
   }
+  //Image styles
   .image-1 {
     position: absolute;
     left: 42.2%;
@@ -47,6 +51,7 @@
     top: 50.1%;
     z-index: 1;
   }
+  //Texts
   .magnificent-history {
     font-family: "Poppins", sans-serif;
     font-style: italic;
@@ -160,6 +165,7 @@
     }
   }
 }
+//Responsivness
 @media screen and (max-width: 1536px) {
   .summary {
     overflow: hidden;

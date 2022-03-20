@@ -1,4 +1,4 @@
-const galleryImages = document.querySelectorAll(".gallery-images");
+const galleryImages = document.querySelectorAll(".gallery-images"); //Elements selection
 const btnBefore = document.querySelector(".btn-before");
 const btnAfter = document.querySelector(".btn-after");
 const srebarnaText = document.querySelector(".srebarna-text");
@@ -13,23 +13,20 @@ const image5 = document.querySelector(".img5");
 const image6 = document.querySelector(".img6");
 const image7 = document.querySelector(".img7");
 const image8 = document.querySelector(".img8");
-console.log(galleryImages);
-console.log(btnBefore);
+
 
 function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms)); //Sleep function
 }
 
 let currentImage = 0;
-btnBefore.addEventListener("click", () => {
-  console.log(currentImage);
+btnBefore.addEventListener("click", () => { //Button handler
   [...galleryImages].forEach((image) => {
     image.classList.remove("slide-left");
     image.classList.remove("slide-left1");
   });
   if (currentImage === -1) {
     currentImage = 7;
-    console.log(currentImage);
   }
   if (currentImage === -2) {
     prohodnaText.classList.remove("slide-text12");
@@ -517,14 +514,12 @@ btnBefore.addEventListener("click", () => {
   }
   currentImage++;
 });
-btnAfter.addEventListener("click", function () {
-  console.log(currentImage);
+btnAfter.addEventListener("click", function () { //Button handler
 
   if (currentImage === 8) {
     currentImage = 0;
   }
   if (currentImage === 7) {
-    console.log(currentImage);
     lakesText.classList.add("hidden");
     lakesText.classList.remove("slide-text11");
     prohodnaText.classList.add("slide-text12");
@@ -984,5 +979,4 @@ btnAfter.addEventListener("click", function () {
     srebarnaText.classList.add("slide-text21");
   }
   currentImage--;
-  console.log(currentImage);
 });
