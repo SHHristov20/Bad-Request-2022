@@ -4005,8 +4005,11 @@ nav {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   width: 100%;
-  z-index: 2;
+  opacity: .8;
   text-decoration: none;
+  z-index: 2000;
+  background: -webkit-gradient(linear, left top, right top, from(#FFDB80), color-stop(#E5AEA8), to(#F59D7C));
+  background: linear-gradient(to right, #FFDB80, #E5AEA8, #F59D7C);
   -webkit-animation: nav ease 1s;
           animation: nav ease 1s;
   -webkit-animation-iteration-count: 1;
@@ -4068,7 +4071,22 @@ nav li {
   }
 }
 
+.up {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.down {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
 a {
+  text-transform: uppercase;
   color: black;
   cursor: pointer;
   text-decoration: none;
