@@ -1,6 +1,8 @@
 "use strict";
 const allSections = document.querySelectorAll(".section");
 const nav = document.querySelector("nav");
+const subscribeBtn = document.querySelector(".Subscribe");
+const sent= document.querySelector(".sent");
 console.log(nav);
 var lastScrollTop = 0;
 
@@ -23,7 +25,9 @@ document.addEventListener(
 );
 //Credits: https://stackoverflow.com/questions/31223341/detecting-scroll-direction
 
-
+subscribeBtn.addEventListener("click", () => {
+  sent.classList.remove("hidden");
+});
 
 allSections.forEach((section) => {
   section.classList.remove("section--hidden");

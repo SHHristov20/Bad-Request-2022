@@ -3,6 +3,7 @@
 @import "summary";
 @import "gallery";
 @import "timeline";
+@import "footer";
 nav {
   position: fixed;
   background-color: transparent;
@@ -10,7 +11,7 @@ nav {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   width: 100%;
-  opacity: .8;
+  opacity: 1;
   text-decoration: none;
   z-index: 2000;
   background: linear-gradient(to right,#FFDB80, #E5AEA8, #F59D7C);
