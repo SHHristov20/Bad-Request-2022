@@ -172,6 +172,16 @@ a {
     color: #343030;
   }
 }
+@media screen and (max-width: 1536px) {
+  .bonus-information {
+    p {
+      font-size: 0.8rem;
+    }
+    h1 {
+      font-size: 1.3rem;
+    }
+  }
+}
 .bonus-information_1 {
   max-width: 10%;
   word-wrap: break-word;
@@ -192,6 +202,16 @@ a {
     color: #343030;
   }
 }
+@media screen and (max-width: 1536px) {
+  .bonus-information_1 {
+    p {
+      font-size: 0.8rem;
+    }
+    h1 {
+      font-size: 1.3rem;
+    }
+  }
+}
 .bonus-information_2 {
   max-width: 10%;
   word-wrap: break-word;
@@ -210,5 +230,15 @@ a {
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
     color: #343030;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .bonus-information_2 {
+    p {
+      font-size: 0.8rem;
+    }
+    h1 {
+      font-size: 1.3rem;
+    }
   }
 }

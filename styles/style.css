@@ -3519,6 +3519,169 @@ html {
   display: none;
 }
 
+@media screen and (max-width: 1536px) {
+  .timeline-title {
+    top: 380%;
+    left: 35%;
+    font-size: 1.8rem;
+  }
+  .timeline {
+    left: -22%;
+    width: 2200px;
+    height: 1500px;
+  }
+  .timeline-img {
+    top: 400.8%;
+    left: 62%;
+    width: 14.7%;
+    height: 13.5%;
+  }
+  .timeline-img1 {
+    top: 414.8%;
+    left: 21.5%;
+    width: 14.7%;
+    height: 13.2%;
+  }
+  .timeline-img2 {
+    top: 427.4%;
+    left: 62%;
+    width: 14.7%;
+    height: 13%;
+  }
+  .timeline-img3 {
+    top: 440.2%;
+    left: 21.5%;
+    width: 14.7%;
+    height: 13.2%;
+  }
+  .timeline-img4 {
+    top: 453%;
+    left: 62%;
+    width: 14.7%;
+    height: 13%;
+  }
+  .timeline-img5 {
+    top: 466%;
+    left: 21.5%;
+    width: 14.7%;
+    height: 13%;
+  }
+  .timeline-img6 {
+    top: 478%;
+    left: 61.5%;
+    width: 14.7%;
+    height: 13.5%;
+  }
+  .timeline-img7 {
+    top: 491.2%;
+    left: 21.5%;
+    width: 14.7%;
+    height: 13.2%;
+  }
+  .timeline-img8 {
+    top: 504%;
+    left: 62.2%;
+    width: 14.7%;
+    height: 13%;
+  }
+  .timeline-img9 {
+    top: 517%;
+    left: 21.5%;
+    width: 14.7%;
+    height: 13.2%;
+  }
+  .timeline-img10 {
+    top: 529.2%;
+    left: 62.1%;
+    width: 14.5%;
+    height: 13%;
+  }
+  .timeline-img11 {
+    top: 542.2%;
+    left: 21.5%;
+    width: 14.7%;
+    height: 13%;
+  }
+  .timeline-img12 {
+    top: 555%;
+    left: 62%;
+    width: 14.2%;
+    height: 13%;
+  }
+  .timeline-img13 {
+    top: 567.5%;
+    left: 21.5%;
+    width: 14.7%;
+    height: 13.2%;
+  }
+  .timeline-img14 {
+    top: 580.2%;
+    left: 62%;
+    width: 14.7%;
+    height: 13%;
+  }
+  .image-active1 {
+    -webkit-animation: imageAnimation1 1s ease-in-out;
+            animation: imageAnimation1 1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  @-webkit-keyframes imageAnimation1 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(-92%);
+              transform: translateX(-92%);
+    }
+  }
+  @keyframes imageAnimation1 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(-92%);
+              transform: translateX(-92%);
+    }
+  }
+  .image-active1-reverse {
+    -webkit-animation: imageAnimationReverse1 1s ease-in-out;
+            animation: imageAnimationReverse1 1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  @-webkit-keyframes imageAnimationReverse1 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-92%);
+              transform: translateX(-92%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(10%);
+              transform: translateX(10%);
+    }
+  }
+  @keyframes imageAnimationReverse1 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-92%);
+              transform: translateX(-92%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(10%);
+              transform: translateX(10%);
+    }
+  }
+}
+
 nav {
   position: fixed;
   background-color: transparent;
@@ -3947,6 +4110,15 @@ a i {
   color: #343030;
 }
 
+@media screen and (max-width: 1536px) {
+  .bonus-information p {
+    font-size: 0.8rem;
+  }
+  .bonus-information h1 {
+    font-size: 1.3rem;
+  }
+}
+
 .bonus-information_1 {
   max-width: 10%;
   word-wrap: break-word;
@@ -3992,6 +4164,15 @@ a i {
   color: #343030;
 }
 
+@media screen and (max-width: 1536px) {
+  .bonus-information_1 p {
+    font-size: 0.8rem;
+  }
+  .bonus-information_1 h1 {
+    font-size: 1.3rem;
+  }
+}
+
 .bonus-information_2 {
   max-width: 10%;
   word-wrap: break-word;
@@ -4035,5 +4216,14 @@ a i {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   color: #343030;
+}
+
+@media screen and (max-width: 1536px) {
+  .bonus-information_2 p {
+    font-size: 0.8rem;
+  }
+  .bonus-information_2 h1 {
+    font-size: 1.3rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
