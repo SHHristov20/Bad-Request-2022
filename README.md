@@ -30,17 +30,17 @@
 <h2>『📋』Documentation</h2>
     <h3> 
         ➤ 『<img src="https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg" alt="pp" width="30" height="20"/>』
-        <a href="--------">Presentation</a>
+        <a href="https://github.com/SHHristov20/Bad-Request-2022/raw/main/Documentation/Bad%20Request%20-%20Presentation.pptx">Presentation</a>
         『<img src="https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg" alt="pp" width="30" height="20"/>』
     </h3>
     <h3> 
         ➤ 『<img src="https://cdn.worldvectorlogo.com/logos/word-1.svg" alt="pp" width="30" height="20"/>』
-        <a href="--------">Documentation</a>
+        <a href="https://github.com/SHHristov20/Bad-Request-2022/raw/main/Documentation/Bad_Request_-_Documentation.docx">Documentation</a>
         『<img src="https://cdn.worldvectorlogo.com/logos/word-1.svg" alt="pp" width="30" height="20"/>』
     </h3>
     <h3> 
         ➤ 『<img src="https://cdn.worldvectorlogo.com/logos/excel-4.svg" alt="pp" width="30" height="20"/>』
-        <a href="--------">QA Documentation</a>
+        <a href="https://github.com/SHHristov20/Bad-Request-2022/raw/main/Documentation/Bad_Request_-_QA_Documentation.xlsx">QA Documentation</a>
         『<img src="https://cdn.worldvectorlogo.com/logos/excel-4.svg" alt="pp" width="30" height="20"/>』
     </h3>
 
@@ -50,7 +50,7 @@
 
 <h2>『🎞』Preview </h2>
 
-
+<img src ="https://i.imgur.com/FN8MeiK.png" alt="Preview">
 
 <br>
 <br>
@@ -125,7 +125,7 @@
 <br>
  
 <h2>『🕹』 Deploying </h2>
-   <p>You can use the following URL: </p>
+   <p>You can use the following URL: https://shhristov20.github.io/Bad-Request-2022/</p>
    <p>You can also run the website locally by following these steps:<br>
      1. Clone it. This can be done by: 
    <pre>git clone https://github.com/SHHristov20/Bad-Request-2022</pre>
