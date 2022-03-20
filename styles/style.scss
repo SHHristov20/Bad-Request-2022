@@ -11,15 +11,18 @@ nav {
   font-weight: 300;
   width: 100%;
   z-index: 2;
+  text-decoration: none;
   @include navAnimation;
   ul {
     text-align: center;
+    text-decoration: none;
   }
   li {
     list-style-type: none;
     margin-left: 5%;
     display: inline;
     font-size: 1.5rem;
+    text-decoration: none;
   }
   @media screen and (max-width: 1536px) {
     li {
@@ -30,6 +33,7 @@ nav {
 a {
   color: black;
   cursor: pointer;
+  text-decoration: none;
   i {
     font-size: 1.2rem;
     margin-right: 0.7vw;

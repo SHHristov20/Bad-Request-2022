@@ -3690,6 +3690,7 @@ nav {
   font-weight: 300;
   width: 100%;
   z-index: 2;
+  text-decoration: none;
   -webkit-animation: nav ease 1s;
           animation: nav ease 1s;
   -webkit-animation-iteration-count: 1;
@@ -3734,6 +3735,7 @@ nav {
 
 nav ul {
   text-align: center;
+  text-decoration: none;
 }
 
 nav li {
@@ -3741,6 +3743,7 @@ nav li {
   margin-left: 5%;
   display: inline;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1536px) {
@@ -3752,6 +3755,7 @@ nav li {
 a {
   color: black;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a i {
