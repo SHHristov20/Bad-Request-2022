@@ -4195,6 +4195,39 @@ rect {
   left: 73%;
 }
 
+@media screen and (max-width: 1536px) {
+  .footer .header {
+    font-size: 1.6rem;
+  }
+  .footer .about {
+    font-size: .8rem;
+  }
+  .footer .social-icons {
+    font-size: 1.6rem;
+  }
+  .footer .copyright {
+    font-size: .8rem;
+  }
+  .footer .linksDiv .links {
+    font-size: 1.6rem;
+  }
+  .footer .linksDiv ul {
+    font-size: .8rem;
+  }
+  .footer .Developers {
+    font-size: 1.6rem;
+  }
+  .footer .devDiv {
+    font-size: .8rem;
+  }
+  .footer .Newsletter {
+    font-size: 1.6rem;
+  }
+  .footer .inp {
+    font-size: .8rem;
+  }
+}
+
 nav {
   position: fixed;
   background-color: transparent;

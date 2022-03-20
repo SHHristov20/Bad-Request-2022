@@ -155,3 +155,39 @@
         left: 73%;
     }
 }
+@media screen and (max-width: 1536px) {
+    .footer {
+        .header {
+            font-size: 1.6rem;
+        }
+        .about {
+            font-size: .8rem;
+        }
+        .social-icons {
+            font-size: 1.6rem;
+        }
+        .copyright {
+            font-size: .8rem;
+        }
+        .linksDiv {
+            .links {
+                font-size: 1.6rem;
+            }
+            ul {
+                font-size: .8rem;
+            }
+        }
+        .Developers {
+            font-size: 1.6rem;
+        }
+        .devDiv {
+            font-size: .8rem;
+        }
+        .Newsletter {
+            font-size: 1.6rem;
+        }
+        .inp {
+            font-size: .8rem;
+        }
+    }
+}
