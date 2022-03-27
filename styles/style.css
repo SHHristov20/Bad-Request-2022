@@ -4504,8 +4504,8 @@ a i {
 
 .history {
   position: absolute;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(90deg) !important;
+          transform: rotate(90deg) !important;
   width: 8.2%;
   top: 84%;
   left: 21.2%;
@@ -4553,8 +4553,8 @@ a i {
 
 .geography {
   position: absolute;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(90deg) !important;
+          transform: rotate(90deg) !important;
   width: 8.2%;
   top: 84%;
   left: 41%;
@@ -4585,8 +4585,8 @@ a i {
 
 .culture {
   position: absolute;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(90deg) !important;
+          transform: rotate(90deg) !important;
   width: 8.2%;
   top: 84%;
   left: 61%;
@@ -4618,51 +4618,11 @@ a i {
 .bonus-information {
   max-width: 10%;
   word-wrap: break-word;
-  -webkit-animation: bonus-information ease 1s;
-          animation: bonus-information ease 1s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
   color: black;
   left: 26%;
-  top: 65%;
+  top: 75%;
   position: absolute;
   width: 9.3vw;
-}
-
-@-webkit-keyframes bonus-information {
-  0% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(5px);
-            filter: blur(5px);
-    top: 90%;
-  }
-  100% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    top: 75%;
-  }
-}
-
-@keyframes bonus-information {
-  0% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(5px);
-            filter: blur(5px);
-    top: 90%;
-  }
-  100% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    top: 75%;
-  }
 }
 
 .bonus-information h1 {
@@ -4689,34 +4649,11 @@ a i {
 .bonus-information_1 {
   max-width: 10%;
   word-wrap: break-word;
-  -webkit-animation: bonus-information ease 1s;
-          animation: bonus-information ease 1s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
   color: black;
   left: 46%;
-  top: 65%;
+  top: 75%;
   position: absolute;
   width: 8vw;
-}
-
-@keyframes bonus-information {
-  0% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(5px);
-            filter: blur(5px);
-    top: 90%;
-  }
-  100% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    top: 75%;
-  }
 }
 
 .bonus-information_1 h1 {
@@ -4743,34 +4680,11 @@ a i {
 .bonus-information_2 {
   max-width: 10%;
   word-wrap: break-word;
-  -webkit-animation: bonus-information ease 1s;
-          animation: bonus-information ease 1s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
   color: black;
   left: 66%;
-  top: 65%;
+  top: 75%;
   position: absolute;
   width: 10vw;
-}
-
-@keyframes bonus-information {
-  0% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(5px);
-            filter: blur(5px);
-    top: 90%;
-  }
-  100% {
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    top: 75%;
-  }
 }
 
 .bonus-information_2 h1 {

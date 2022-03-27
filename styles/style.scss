@@ -153,7 +153,7 @@ a {
 //bonus information
 .history {
   position: absolute;
-  transform: rotate(90deg);
+  transform: rotate(90deg) !important;
   width: 8.2%;
   top: 84%;
   left: 21.2%;
@@ -161,7 +161,7 @@ a {
 }
 .geography {
   position: absolute;
-  transform: rotate(90deg);
+  transform: rotate(90deg) !important;
   width: 8.2%;
   top: 84%;
   left: 41%;
@@ -169,7 +169,7 @@ a {
 }
 .culture {
   position: absolute;
-  transform: rotate(90deg);
+  transform: rotate(90deg) !important; 
   width: 8.2%;
   top: 84%;
   left: 61%;
@@ -178,10 +178,10 @@ a {
 .bonus-information {
   max-width: 10%;
   word-wrap: break-word;
-  @include bonus-information;
+  // @include bonus-information;
   color: black;
   left: 26%;
-  top: 65%;
+  top:75%;
   position: absolute;
   width: 9.3vw;
   h1 {
@@ -209,10 +209,10 @@ a {
 .bonus-information_1 {
   max-width: 10%;
   word-wrap: break-word;
-  @include bonus-information;
+  // @include bonus-information;
   color: black;
   left: 46%;
-  top: 65%;
+  top: 75%;
   position: absolute;
   width: 8vw;
   h1 {
@@ -240,10 +240,10 @@ a {
 .bonus-information_2 {
   max-width: 10%;
   word-wrap: break-word;
-  @include bonus-information;
+  // @include bonus-information;
   color: black;
   left: 66%;
-  top: 65%;
+  top: 75%;
   position: absolute;
   width: 10vw;
   h1 {
