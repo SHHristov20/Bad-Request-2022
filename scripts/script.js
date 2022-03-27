@@ -2,7 +2,10 @@
 const allSections = document.querySelectorAll(".section"); //Elements selection
 const nav = document.querySelector("nav");
 const subscribeBtn = document.querySelector(".Subscribe");
-const sent= document.querySelector(".sent");
+const sent = document.querySelector(".sent");
+
+
+AOS.init();
 var lastScrollTop = 0;
 
 document.addEventListener("scroll", () => {
